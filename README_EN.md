@@ -25,7 +25,13 @@ This is an independent open-source implementation, with no affiliation, authoriz
 
 ### 1. Install this edition and its Python dependencies
 
-Place the complete `yuxin-business-charts` directory distributed on the company intranet in `~/.codex/skills/`. The upstream repository does not contain this customized edition.
+Clone this customized edition into the Codex skills directory (back up any existing installation first):
+
+```bash
+git clone https://github.com/yuxinliang0301/yuxin-business-charts.git ~/.codex/skills/yuxin-business-charts
+```
+
+Alternatively, download the repository ZIP and place its complete contents in `~/.codex/skills/yuxin-business-charts/`. Reload the session to discover the skill.
 
 ```bash
 cd ~/.codex/skills/yuxin-business-charts
