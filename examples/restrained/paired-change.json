@@ -1,0 +1,36 @@
+{
+  "id": "paired-change",
+  "theme": "restrained_navy",
+  "type": "bar_yoy",
+  "title": "东区增长 25%，西区下降 8%",
+  "subtitle": "同一时间窗比较；右侧为同比增幅",
+  "unit": "万元",
+  "data": {
+    "categories": [
+      "东区",
+      "南区",
+      "西区",
+      "北区"
+    ],
+    "previous": {
+      "name": "上年同期",
+      "values": [
+        100,
+        90,
+        100,
+        80
+      ]
+    },
+    "current": {
+      "name": "本期",
+      "values": [
+        125,
+        108,
+        92,
+        88
+      ]
+    }
+  },
+  "source": "Synthetic demonstration data; not business evidence",
+  "footnote": "Illustrative example; reporting period: Jan-Jun 2026"
+}

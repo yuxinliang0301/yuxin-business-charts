@@ -1,0 +1,437 @@
+{
+ "id": "dash_shared_axis_layers",
+ "type": "dashboard",
+ "title": [
+  {
+   "text": "Group 1 vs Group 2  ",
+   "color": "#000000"
+  },
+  {
+   "text": "Metric A & Metric C share by period",
+   "color": "#4472C0"
+  },
+  {
+   "text": " (P1–P13)",
+   "color": "#000000"
+  }
+ ],
+ "source": "Illustrative data (not real figures)",
+ "pad": {
+  "l": 0.25,
+  "r": 1.25
+ },
+ "panels": [
+  {
+   "box": [
+    0,
+    0,
+    1,
+    0.26
+   ],
+   "chart": {
+    "kind": "lines",
+    "data": {
+     "categories": [
+      "P1",
+      "P2",
+      "P3",
+      "P4",
+      "P5",
+      "P6",
+      "P7",
+      "P8",
+      "P9",
+      "P10",
+      "P11",
+      "P12",
+      "P13"
+     ],
+     "series": [
+      {
+       "name": "Group 1 YoY",
+       "values": [
+        292,
+        237,
+        225,
+        188,
+        177,
+        182,
+        189,
+        237,
+        39,
+        87,
+        60,
+        52,
+        56
+       ]
+      },
+      {
+       "name": "Group 2 YoY",
+       "values": [
+        84,
+        81,
+        99,
+        60,
+        90,
+        110,
+        105,
+        126,
+        45,
+        62,
+        51,
+        42,
+        48
+       ],
+       "label_pos": "below"
+      }
+     ]
+    },
+    "suffix": "%",
+    "smooth": true,
+    "x_labels": false,
+    "font_size": 7.5,
+    "line_width": 1.25,
+    "baseline": false,
+    "legend_size": 7.5
+   }
+  },
+  {
+   "box": [
+    0,
+    0.27,
+    1,
+    0.27
+   ],
+   "chart": {
+    "kind": "lines",
+    "data": {
+     "categories": [
+      "P1",
+      "P2",
+      "P3",
+      "P4",
+      "P5",
+      "P6",
+      "P7",
+      "P8",
+      "P9",
+      "P10",
+      "P11",
+      "P12",
+      "P13"
+     ],
+     "series": [
+      {
+       "name": "Metric C share",
+       "values": [
+        56.8,
+        54.6,
+        52.7,
+        58.5,
+        60.0,
+        54.3,
+        63.2,
+        62.1,
+        55.2,
+        64.5,
+        59.1,
+        55.5,
+        60.2
+       ]
+      }
+     ]
+    },
+    "suffix": "%",
+    "decimals": 1,
+    "smooth": true,
+    "x_labels": false,
+    "font_size": 7.5,
+    "line_width": 1.25,
+    "baseline": false,
+    "pad_hi": 3.6,
+    "pad_lo": 3.6,
+    "legend_size": 7.5,
+    "segments": [
+     {
+      "from": 0,
+      "to": 7,
+      "label": "Year 1"
+     },
+     {
+      "from": 8,
+      "to": 12,
+      "label": "Year 2"
+     }
+    ],
+    "segment_style": {
+     "color": "#7F7F7F",
+     "italic": true,
+     "bold": false,
+     "size": 8.5
+    },
+    "annotations": [
+     {
+      "type": "channel",
+      "series": "Metric C share",
+      "offset": 5.4,
+      "color": "#7F7F7F"
+     },
+     {
+      "type": "circle",
+      "series": "Metric C share",
+      "points": [
+       1
+      ],
+      "color": "green",
+      "w": 0.5,
+      "h": 0.24
+     },
+     {
+      "type": "circle",
+      "series": "Metric C share",
+      "points": [
+       2
+      ],
+      "color": "green",
+      "w": 0.5,
+      "h": 0.24
+     },
+     {
+      "type": "circle",
+      "series": "Metric C share",
+      "points": [
+       3
+      ],
+      "color": "green",
+      "w": 0.5,
+      "h": 0.24
+     },
+     {
+      "type": "circle",
+      "series": "Metric C share",
+      "points": [
+       10
+      ],
+      "color": "red",
+      "w": 0.5,
+      "h": 0.24
+     },
+     {
+      "type": "circle",
+      "series": "Metric C share",
+      "points": [
+       11
+      ],
+      "color": "red",
+      "w": 0.5,
+      "h": 0.24
+     },
+     {
+      "type": "circle",
+      "series": "Metric C share",
+      "points": [
+       12
+      ],
+      "color": "red",
+      "w": 0.5,
+      "h": 0.24
+     },
+     {
+      "type": "note",
+      "text": "vs base",
+      "value": -2.2,
+      "series": "Metric C share",
+      "point": 0,
+      "dx": 0.1,
+      "dy": -0.45
+     },
+     {
+      "type": "note",
+      "text": "vs base",
+      "value": -4.5,
+      "series": "Metric C share",
+      "point": 1,
+      "dx": 0.25,
+      "dy": -0.5
+     },
+     {
+      "type": "note",
+      "text": "vs base",
+      "value": 1.4,
+      "series": "Metric C share",
+      "point": 3,
+      "dx": 0.05,
+      "dy": 0.42
+     },
+     {
+      "type": "note",
+      "text": "vs base",
+      "value": -5.7,
+      "series": "Metric C share",
+      "point": 10,
+      "dx": 0.0,
+      "dy": -0.5
+     },
+     {
+      "type": "note",
+      "text": "vs base",
+      "value": -9.3,
+      "series": "Metric C share",
+      "point": 11,
+      "dx": 0.0,
+      "dy": -0.42
+     },
+     {
+      "type": "note",
+      "text": "vs base",
+      "value": -4.7,
+      "series": "Metric C share",
+      "point": 12,
+      "dx": 0.0,
+      "dy": -0.5
+     },
+     {
+      "type": "arrow",
+      "from": [
+       0.165,
+       0.5
+      ],
+      "to": [
+       0.21,
+       0.62
+      ]
+     },
+     {
+      "type": "arrow",
+      "from": [
+       0.775,
+       0.42
+      ],
+      "to": [
+       0.83,
+       0.55
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "box": [
+    0,
+    0.55,
+    1,
+    0.45
+   ],
+   "chart": {
+    "kind": "column_stack",
+    "data": {
+     "categories": [
+      "P1",
+      "P2",
+      "P3",
+      "P4",
+      "P5",
+      "P6",
+      "P7",
+      "P8",
+      "P9",
+      "P10",
+      "P11",
+      "P12",
+      "P13"
+     ],
+     "series": [
+      {
+       "name": "Group 1",
+       "values": [
+        3.2,
+        3.6,
+        3.6,
+        3.4,
+        4.3,
+        4.8,
+        5.2,
+        4.9,
+        4.3,
+        4.7,
+        5.1,
+        4.8,
+        4.7
+       ],
+       "point_colors": [
+        "#9CAECC",
+        "#4472C0",
+        "#4472C0",
+        "#9CAECC",
+        "#9CAECC",
+        "#4472C0",
+        "#4472C0",
+        "#4472C0",
+        "#9CAECC",
+        "#9CAECC",
+        "#4472C0",
+        "#4472C0",
+        "#4472C0"
+       ]
+      },
+      {
+       "name": "Group 2",
+       "values": [
+        4.9,
+        5.8,
+        6.4,
+        5.1,
+        6.4,
+        8.6,
+        7.6,
+        7.4,
+        7.8,
+        6.8,
+        8.2,
+        8.4,
+        6.8
+       ],
+       "point_colors": [
+        "#D9D9D9",
+        "#A6A6A6",
+        "#A6A6A6",
+        "#D9D9D9",
+        "#D9D9D9",
+        "#A6A6A6",
+        "#A6A6A6",
+        "#A6A6A6",
+        "#D9D9D9",
+        "#D9D9D9",
+        "#A6A6A6",
+        "#A6A6A6",
+        "#A6A6A6"
+       ]
+      }
+     ]
+    },
+    "decimals": 1,
+    "font_size": 7.5,
+    "x_label_size": 6,
+    "x_label_bold": false,
+    "legend_size": 7.5,
+    "segments": [
+     {
+      "from": 0,
+      "to": 7
+     },
+     {
+      "from": 8,
+      "to": 12
+     }
+    ]
+   }
+  }
+ ],
+ "series_colors": {
+  "Group 1 YoY": "#4472C0",
+  "Group 2 YoY": "#ED7D31",
+  "Metric C share": "#6F9FD8",
+  "Group 1": "#4472C0",
+  "Group 2": "#A6A6A6"
+ }
+}

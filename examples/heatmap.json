@@ -1,0 +1,70 @@
+{
+  "id": "heatmap",
+  "type": "heatmap",
+  "title": "Margin pressure concentrated in South / Hardware",
+  "subtitle": "",
+  "unit": "EBIT margin %",
+  "source": "Illustrative data",
+  "data": {
+    "rows": [
+      "Software",
+      "Services",
+      "Hardware",
+      "Devices"
+    ],
+    "cols": [
+      "North",
+      "South",
+      "East",
+      "West",
+      "Central"
+    ],
+    "values": [
+      [
+        32,
+        28,
+        30,
+        31,
+        29
+      ],
+      [
+        22,
+        18,
+        21,
+        20,
+        19
+      ],
+      [
+        12,
+        4,
+        10,
+        9,
+        8
+      ],
+      [
+        15,
+        9,
+        14,
+        13,
+        12
+      ]
+    ]
+  },
+  "highlight": [
+    {
+      "anchor": "Hardware|South",
+      "shape": "circle",
+      "w": 1.4,
+      "h": 0.8
+    }
+  ],
+  "callouts": [
+    {
+      "text": "Price war in South",
+      "anchor": "Hardware|South",
+      "dx": 1.0,
+      "dy": 1.5
+    }
+  ],
+  "footnote": "Figures rounded; illustrative example"
+}

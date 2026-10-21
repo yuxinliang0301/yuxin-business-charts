@@ -1,0 +1,6 @@
+Stage            Users
+Visitors         100000
+Product views    42000
+Add to cart      9800
+Checkout         4100
+Purchase         2400

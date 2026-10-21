@@ -1,0 +1,70 @@
+{
+  "id": "stacked",
+  "type": "stacked",
+  "title": "Growth driven by all three segments, Seg C fastest",
+  "subtitle": "",
+  "unit": "$M",
+  "source": "Illustrative data",
+  "data": {
+    "categories": [
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "series": [
+      {
+        "name": "Seg C",
+        "values": [
+          10,
+          12,
+          15,
+          19,
+          25
+        ]
+      },
+      {
+        "name": "Seg B",
+        "values": [
+          25,
+          28,
+          33,
+          38,
+          43
+        ]
+      },
+      {
+        "name": "Seg A",
+        "values": [
+          40,
+          44,
+          48,
+          52,
+          57
+        ]
+      }
+    ]
+  },
+  "decorations": [
+    {
+      "type": "cagr",
+      "from": 0,
+      "to": 4
+    }
+  ],
+  "highlight": [
+    {
+      "category": "2025"
+    }
+  ],
+  "callouts": [
+    {
+      "text": "Seg C now 20% of revenue",
+      "category": "2025",
+      "dx": -6.6,
+      "dy": 0.0
+    }
+  ],
+  "footnote": "Figures rounded; illustrative example"
+}

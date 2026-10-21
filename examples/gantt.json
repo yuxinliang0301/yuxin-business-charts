@@ -1,0 +1,75 @@
+{
+  "id": "gantt",
+  "type": "gantt",
+  "title": "Project plan: deal closes end of July",
+  "subtitle": "",
+  "unit": "2026, ISO calendar weeks",
+  "source": "Illustrative data",
+  "data": {
+    "start": "2026-05-04",
+    "end": "2026-08-01",
+    "weeks": true,
+    "tasks": [
+      {
+        "name": "Send teaser",
+        "start": "2026-05-04",
+        "end": "2026-05-15",
+        "owner": "Bank"
+      },
+      {
+        "name": "Sign NDA",
+        "milestone": "2026-05-20",
+        "milestone_label": "NDA signed",
+        "owner": "Legal"
+      },
+      {
+        "name": "Management calls",
+        "start": "2026-05-18",
+        "end": "2026-06-12",
+        "owner": "CEO"
+      },
+      {
+        "name": "Data room access",
+        "start": "2026-06-01",
+        "end": "2026-07-10",
+        "owner": "CFO"
+      },
+      {
+        "name": "Final due diligence",
+        "start": "2026-06-29",
+        "end": "2026-07-24",
+        "owner": "Buyer"
+      },
+      {
+        "name": "Signing",
+        "milestone": "2026-07-29",
+        "milestone_label": "SPA signed",
+        "owner": "All"
+      }
+    ],
+    "shades": [
+      {
+        "start": "2026-06-29",
+        "end": "2026-07-10",
+        "label": "Exclusivity"
+      }
+    ],
+    "brackets": [
+      {
+        "start": "2026-05-04",
+        "end": "2026-06-12",
+        "label": "Buyer outreach"
+      }
+    ],
+    "today": "2026-06-08"
+  },
+  "callouts": [
+    {
+      "text": "Critical path: DD → SPA",
+      "anchor": "SPA signed",
+      "dx": -2.8,
+      "dy": 1.25
+    }
+  ],
+  "footnote": "Figures rounded; illustrative example"
+}

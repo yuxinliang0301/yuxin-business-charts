@@ -1,0 +1,4 @@
+interface:
+  display_name: "Yuxin 商业图表助手"
+  short_description: "生成楷体咨询风图片与重点表格，支持条件格式、迷你图和高阶比较画法"
+  default_prompt: "请使用 $yuxin-business-charts，沿用已确认的数据口径和样式，将这份数据制作成清晰的图片或重点表格。"

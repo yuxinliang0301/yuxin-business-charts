@@ -1,0 +1,26 @@
+{
+  "id": "doughnut",
+  "type": "doughnut",
+  "title": "Three channels make up the mix",
+  "subtitle": "",
+  "unit": "%",
+  "source": "Illustrative data",
+  "data": {
+    "segments": [
+      {
+        "label": "Online",
+        "value": 57
+      },
+      {
+        "label": "Retail",
+        "value": 24
+      },
+      {
+        "label": "Partners",
+        "value": 19
+      }
+    ],
+    "center": "$125M"
+  },
+  "footnote": "Figures rounded; illustrative example"
+}

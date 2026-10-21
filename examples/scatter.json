@@ -1,0 +1,70 @@
+{
+  "id": "scatter",
+  "type": "scatter",
+  "title": "Higher price does not mean higher satisfaction",
+  "subtitle": "",
+  "unit": "Price $ vs CSAT score",
+  "source": "Illustrative data",
+  "data": {
+    "points": [
+      {
+        "x": 12,
+        "y": 60,
+        "label": "A"
+      },
+      {
+        "x": 15,
+        "y": 72,
+        "label": "B"
+      },
+      {
+        "x": 18,
+        "y": 55,
+        "label": "C"
+      },
+      {
+        "x": 22,
+        "y": 80,
+        "label": "D"
+      },
+      {
+        "x": 25,
+        "y": 66,
+        "label": "E"
+      },
+      {
+        "x": 30,
+        "y": 70,
+        "label": "F"
+      },
+      {
+        "x": 34,
+        "y": 58,
+        "label": "G"
+      }
+    ],
+    "x_title": "Price ($)",
+    "y_title": "CSAT",
+    "partition": {
+      "x": 23,
+      "y": 65
+    }
+  },
+  "highlight": [
+    {
+      "anchor": "D",
+      "shape": "circle",
+      "w": 0.6,
+      "h": 0.45
+    }
+  ],
+  "callouts": [
+    {
+      "text": "D: premium and loved",
+      "anchor": "D",
+      "dx": -2.6,
+      "dy": 0.5
+    }
+  ],
+  "footnote": "Figures rounded; illustrative example"
+}

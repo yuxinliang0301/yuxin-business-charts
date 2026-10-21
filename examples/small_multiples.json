@@ -1,0 +1,90 @@
+{
+  "id": "small_multiples",
+  "type": "small_multiples",
+  "title": "Every region grew, Asia fastest",
+  "subtitle": "",
+  "unit": "$M",
+  "source": "Illustrative data",
+  "data": {
+    "categories": [
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "cols": 3,
+    "panels": [
+      {
+        "title": "Asia",
+        "values": [
+          20,
+          26,
+          33,
+          41,
+          52
+        ]
+      },
+      {
+        "title": "Europe",
+        "values": [
+          40,
+          42,
+          44,
+          45,
+          47
+        ]
+      },
+      {
+        "title": "N. America",
+        "values": [
+          50,
+          53,
+          55,
+          58,
+          60
+        ]
+      },
+      {
+        "title": "LatAm",
+        "values": [
+          10,
+          11,
+          13,
+          14,
+          16
+        ]
+      },
+      {
+        "title": "Africa",
+        "values": [
+          5,
+          6,
+          6,
+          7,
+          9
+        ]
+      },
+      {
+        "title": "Oceania",
+        "values": [
+          8,
+          8,
+          9,
+          9,
+          10
+        ]
+      }
+    ]
+  },
+  "callouts": [
+    {
+      "text": "Asia: largest\ngrowth engine",
+      "anchor": "52",
+      "dx": -2.1,
+      "dy": 0.2,
+      "w": 2.0
+    }
+  ],
+  "footnote": "Figures rounded; illustrative example"
+}

@@ -1,0 +1,36 @@
+{
+  "theme": "restrained_navy",
+  "unit": "万元",
+  "source": "重新构造的演示数据，不代表实际经营情况",
+  "id": "receivables-bridge",
+  "type": "waterfall",
+  "title": "期末应收125万元，较期初增加5万元",
+  "subtitle": "余额变动：期初 + 新增 − 回款 − 核销 = 期末",
+  "data": {
+    "items": [
+      {
+        "label": "期初余额",
+        "kind": "start",
+        "value": 120
+      },
+      {
+        "label": "本期新增",
+        "value": 50
+      },
+      {
+        "label": "本期回款",
+        "value": -40
+      },
+      {
+        "label": "本期核销",
+        "value": -5
+      },
+      {
+        "label": "期末余额",
+        "kind": "total"
+      }
+    ],
+    "signed_labels": true
+  },
+  "footnote": "示意期间：2026年6月；独立期末余额125万元，与计算值一致。负项表示余额减少，不表示经营变差。"
+}

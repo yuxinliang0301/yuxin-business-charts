@@ -1,0 +1,54 @@
+{
+  "id": "line_target",
+  "type": "line_target",
+  "title": "Churn back inside target range since May",
+  "subtitle": "",
+  "unit": "% monthly churn",
+  "source": "Illustrative data",
+  "data": {
+    "categories": [
+      "Jan",
+      "Feb",
+      "Mar",
+      "Apr",
+      "May",
+      "Jun",
+      "Jul",
+      "Aug"
+    ],
+    "series": [
+      {
+        "name": "Churn",
+        "values": [
+          3.8,
+          3.6,
+          3.1,
+          2.9,
+          2.4,
+          2.2,
+          2.3,
+          2.0
+        ]
+      }
+    ],
+    "band": [
+      1.5,
+      2.5
+    ],
+    "label_last": false,
+    "target": 2.0,
+    "target_label": "Target 2.0%"
+  },
+  "callouts": [
+    {
+      "text": "Retention programme launched",
+      "at": [
+        0.507,
+        0.378
+      ],
+      "dx": -2.4,
+      "dy": 1.9
+    }
+  ],
+  "footnote": "Figures rounded; illustrative example"
+}

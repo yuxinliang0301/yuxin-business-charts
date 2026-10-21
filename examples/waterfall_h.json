@@ -1,0 +1,39 @@
+{
+  "id": "waterfall_h",
+  "type": "waterfall_h",
+  "title": "Where the revenue goes: cost build-down",
+  "subtitle": "",
+  "unit": "$M",
+  "source": "Illustrative data",
+  "data": {
+    "items": [
+      {
+        "label": "Revenue",
+        "value": 125,
+        "kind": "start"
+      },
+      {
+        "label": "COGS",
+        "value": -55
+      },
+      {
+        "label": "SG&A",
+        "value": -28
+      },
+      {
+        "label": "R&D",
+        "value": -12
+      },
+      {
+        "label": "D&A",
+        "value": -6
+      },
+      {
+        "label": "EBIT",
+        "value": 24,
+        "kind": "total"
+      }
+    ]
+  },
+  "footnote": "Figures rounded; illustrative example"
+}

@@ -1,0 +1,41 @@
+{
+  "id": "bar_sorted",
+  "type": "bar_sorted",
+  "title": "Sorted: Mice overtook Webcams in Q3",
+  "subtitle": "",
+  "unit": "k units",
+  "source": "Illustrative data",
+  "data": {
+    "categories": [
+      "Webcams",
+      "Mice",
+      "Docks",
+      "Keyboards",
+      "Monitors"
+    ],
+    "series": [
+      {
+        "name": "Units",
+        "values": [
+          280,
+          310,
+          120,
+          515,
+          190
+        ]
+      }
+    ],
+    "highlight": [
+      "Mice"
+    ]
+  },
+  "callouts": [
+    {
+      "text": "Bundle with laptops lifted Mice",
+      "anchor": "310",
+      "dx": 3.0,
+      "dy": 0.5
+    }
+  ],
+  "footnote": "Figures rounded; illustrative example"
+}

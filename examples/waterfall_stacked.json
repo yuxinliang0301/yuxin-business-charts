@@ -1,0 +1,54 @@
+{
+  "id": "waterfall_stacked",
+  "type": "waterfall_stacked",
+  "title": "Both products contributed to growth; B more from price",
+  "subtitle": "",
+  "unit": "$M",
+  "source": "Illustrative data",
+  "data": {
+    "series": [
+      "Product A",
+      "Product B"
+    ],
+    "items": [
+      {
+        "label": "2024",
+        "values": [
+          60,
+          40
+        ],
+        "kind": "start"
+      },
+      {
+        "label": "Price",
+        "values": [
+          5,
+          10
+        ]
+      },
+      {
+        "label": "Volume",
+        "values": [
+          14,
+          8
+        ]
+      },
+      {
+        "label": "FX",
+        "values": [
+          -5,
+          -3
+        ]
+      },
+      {
+        "label": "2025",
+        "values": [
+          74,
+          55
+        ],
+        "kind": "total"
+      }
+    ]
+  },
+  "footnote": "Figures rounded; illustrative example"
+}

@@ -1,0 +1,31 @@
+{
+ "type": "waterfall",
+ "title": "EBIT bridge",
+ "source": "Mgmt accounts",
+ "data": {
+  "items": [
+   {
+    "label": "EBIT 2024",
+    "value": 40,
+    "kind": "start"
+   },
+   {
+    "label": "Price",
+    "value": 9
+   },
+   {
+    "label": "Mix",
+    "value": 4
+   },
+   {
+    "label": "Input cost",
+    "value": -11
+   },
+   {
+    "label": "EBIT 2025",
+    "value": 45,
+    "kind": "total"
+   }
+  ]
+ }
+}

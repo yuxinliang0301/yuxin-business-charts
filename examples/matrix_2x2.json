@@ -1,0 +1,61 @@
+{
+  "id": "matrix_2x2",
+  "type": "matrix_2x2",
+  "title": "Prioritise Cloud and Analytics: attractive and winnable",
+  "subtitle": "",
+  "unit": "Bubble size = revenue",
+  "source": "Illustrative data",
+  "data": {
+    "x_title": "Ability to win",
+    "y_title": "Market attractiveness",
+    "quadrants": [
+      "Partner / build",
+      "Invest to grow",
+      "Deprioritise",
+      "Harvest"
+    ],
+    "points": [
+      {
+        "x": 0.78,
+        "y": 0.82,
+        "size": 30,
+        "label": "Cloud",
+        "focus": true
+      },
+      {
+        "x": 0.66,
+        "y": 0.68,
+        "size": 18,
+        "label": "Analytics",
+        "focus": true
+      },
+      {
+        "x": 0.3,
+        "y": 0.75,
+        "size": 22,
+        "label": "AI platforms"
+      },
+      {
+        "x": 0.75,
+        "y": 0.3,
+        "size": 25,
+        "label": "On-prem"
+      },
+      {
+        "x": 0.22,
+        "y": 0.22,
+        "size": 8,
+        "label": "Legacy HW"
+      }
+    ]
+  },
+  "callouts": [
+    {
+      "text": "Invest $40M over 3 years",
+      "anchor": "Cloud",
+      "dx": -2.6,
+      "dy": -0.75
+    }
+  ],
+  "footnote": "Figures rounded; illustrative example"
+}

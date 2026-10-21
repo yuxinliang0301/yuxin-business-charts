@@ -1,0 +1,56 @@
+{
+  "id": "butterfly",
+  "type": "butterfly",
+  "title": "Men and women value different features",
+  "subtitle": "",
+  "unit": "% respondents",
+  "source": "Illustrative data",
+  "data": {
+    "categories": [
+      "Price",
+      "Battery",
+      "Camera",
+      "Design",
+      "Brand"
+    ],
+    "series": [
+      {
+        "name": "Men",
+        "values": [
+          62,
+          55,
+          40,
+          28,
+          35
+        ]
+      },
+      {
+        "name": "Women",
+        "values": [
+          58,
+          49,
+          61,
+          52,
+          30
+        ]
+      }
+    ]
+  },
+  "highlight": [
+    {
+      "anchor": "Camera",
+      "shape": "box",
+      "w": 2.4,
+      "h": 0.55
+    }
+  ],
+  "callouts": [
+    {
+      "text": "21 pp gap on camera",
+      "anchor": "61",
+      "dx": 0.6,
+      "dy": -0.75
+    }
+  ],
+  "footnote": "Figures rounded; illustrative example"
+}

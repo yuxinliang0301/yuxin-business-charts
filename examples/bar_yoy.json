@@ -1,0 +1,54 @@
+{
+  "id": "bar_yoy",
+  "type": "bar_yoy",
+  "title": "All categories grew except Mice",
+  "subtitle": "",
+  "unit": "k units",
+  "source": "Illustrative data",
+  "data": {
+    "categories": [
+      "Keyboards",
+      "Headphones",
+      "Mice",
+      "Webcams",
+      "Monitors"
+    ],
+    "previous": {
+      "name": "2024",
+      "values": [
+        480,
+        350,
+        330,
+        220,
+        160
+      ]
+    },
+    "current": {
+      "name": "2025",
+      "values": [
+        515,
+        420,
+        310,
+        280,
+        190
+      ]
+    }
+  },
+  "highlight": [
+    {
+      "anchor": "-6%",
+      "shape": "circle",
+      "w": 0.8,
+      "h": 0.42
+    }
+  ],
+  "callouts": [
+    {
+      "text": "Price war with private label",
+      "anchor": "-6%",
+      "dx": -2.4,
+      "dy": 0.55
+    }
+  ],
+  "footnote": "Figures rounded; illustrative example"
+}

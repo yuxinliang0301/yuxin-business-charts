@@ -1,0 +1,51 @@
+{
+  "id": "funnel",
+  "type": "funnel",
+  "title": "Only 2.4% of visitors convert to purchases",
+  "subtitle": "",
+  "unit": "#",
+  "source": "Illustrative data",
+  "data": {
+    "stages": [
+      {
+        "label": "Visitors",
+        "value": 100000
+      },
+      {
+        "label": "Product views",
+        "value": 42000
+      },
+      {
+        "label": "Add to cart",
+        "value": 9800
+      },
+      {
+        "label": "Checkout",
+        "value": 4100
+      },
+      {
+        "label": "Purchase",
+        "value": 2400
+      }
+    ]
+  },
+  "highlight": [
+    {
+      "anchor": "↓ 42%",
+      "nth": 1,
+      "shape": "circle",
+      "w": 1.2,
+      "h": 0.45
+    }
+  ],
+  "callouts": [
+    {
+      "text": "Checkout UX fix: +0.8 pp",
+      "anchor": "↓ 42%",
+      "nth": 1,
+      "dx": -1.0,
+      "dy": 0.9
+    }
+  ],
+  "footnote": "Figures rounded; illustrative example"
+}

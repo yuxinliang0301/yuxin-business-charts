@@ -1,0 +1,63 @@
+{
+  "id": "waterfall_subtotal",
+  "type": "waterfall_subtotal",
+  "title": "From revenue to net income with two subtotals",
+  "subtitle": "",
+  "unit": "$M",
+  "source": "Illustrative data",
+  "data": {
+    "items": [
+      {
+        "label": "Revenue",
+        "value": 125,
+        "kind": "start"
+      },
+      {
+        "label": "COGS",
+        "value": -55
+      },
+      {
+        "label": "Gross profit",
+        "kind": "subtotal"
+      },
+      {
+        "label": "SG&A",
+        "value": -28
+      },
+      {
+        "label": "R&D",
+        "value": -12
+      },
+      {
+        "label": "EBIT",
+        "kind": "subtotal"
+      },
+      {
+        "label": "Interest",
+        "value": -4
+      },
+      {
+        "label": "Tax",
+        "value": -6
+      },
+      {
+        "label": "Net income",
+        "kind": "total"
+      }
+    ]
+  },
+  "highlight": [
+    {
+      "category": "EBIT"
+    }
+  ],
+  "callouts": [
+    {
+      "text": "EBIT margin 24%",
+      "category": "EBIT",
+      "dx": 1.8,
+      "dy": -1.6
+    }
+  ],
+  "footnote": "Figures rounded; illustrative example"
+}

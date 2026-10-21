@@ -1,0 +1,22 @@
+{
+ "type": "line_target",
+ "title": "Churn",
+ "source": "BI",
+ "data": {
+  "categories": [
+   "Jan",
+   "Feb",
+   "Mar"
+  ],
+  "series": [
+   {
+    "name": "Churn",
+    "values": [
+     3.2,
+     2.8,
+     2.1
+    ]
+   }
+  ]
+ }
+}

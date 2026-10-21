@@ -1,0 +1,29 @@
+{
+  "id": "column_error",
+  "type": "column_error",
+  "title": "Pilot stores lift sales by 12–18%",
+  "subtitle": "",
+  "unit": "Index",
+  "source": "Illustrative data",
+  "data": {
+    "categories": [
+      "Control",
+      "Pilot A",
+      "Pilot B",
+      "Pilot C"
+    ],
+    "values": [
+      100,
+      112,
+      118,
+      115
+    ],
+    "errors": [
+      4,
+      5,
+      6,
+      3
+    ]
+  },
+  "footnote": "Error bars show 95% confidence interval"
+}

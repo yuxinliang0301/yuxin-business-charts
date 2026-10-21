@@ -1,0 +1,1422 @@
+{
+  "slides": [
+    {
+      "id": "01-waterfall_signed",
+      "type": "waterfall",
+      "title": "01  增减瀑布｜价格改善仍不足以抵消成本压力",
+      "subtitle": "读变化：起点、各项增减与终点在同一条桥上",
+      "unit": "百万元",
+      "source": "模拟数据，仅用于展示图形与分析方法",
+      "data": {
+        "items": [
+          {
+            "label": "上年利润",
+            "value": 40,
+            "kind": "start"
+          },
+          {
+            "label": "提价",
+            "value": 9
+          },
+          {
+            "label": "结构改善",
+            "value": 4
+          },
+          {
+            "label": "原料涨价",
+            "value": -11
+          },
+          {
+            "label": "费用增加",
+            "value": -3
+          },
+          {
+            "label": "本年利润",
+            "value": 39,
+            "kind": "total"
+          }
+        ],
+        "signed_labels": true,
+        "color_by_sign": true
+      },
+      "footnote": "40＋9＋4－11－3＝39；蓝色表示增加，酒红表示减少。",
+      "theme": "restrained_navy",
+      "font_family": "Kaiti SC",
+      "font_size": 14,
+      "chart_box": [
+        0.7,
+        1.75,
+        11.9,
+        4.6
+      ]
+    },
+    {
+      "id": "02-waterfall_stacked",
+      "type": "waterfall_stacked",
+      "title": "02  堆叠瀑布｜同时看增长来自哪个因素、哪个产品",
+      "subtitle": "读双重归因：每个增量继续拆成产品贡献",
+      "unit": "百万元",
+      "source": "模拟数据，仅用于展示图形与分析方法",
+      "data": {
+        "series": [
+          "产品甲",
+          "产品乙"
+        ],
+        "items": [
+          {
+            "label": "上年收入",
+            "values": [
+              60,
+              40
+            ],
+            "kind": "start"
+          },
+          {
+            "label": "提价贡献",
+            "values": [
+              5,
+              10
+            ]
+          },
+          {
+            "label": "销量贡献",
+            "values": [
+              14,
+              8
+            ]
+          },
+          {
+            "label": "汇率影响",
+            "values": [
+              -5,
+              -3
+            ]
+          },
+          {
+            "label": "本年收入",
+            "values": [
+              74,
+              55
+            ],
+            "kind": "total"
+          }
+        ]
+      },
+      "footnote": "100＋15＋22－8＝129；提价贡献：甲5、乙10；汇率影响：甲－5、乙－3；同产品同色。",
+      "theme": "restrained_navy",
+      "font_family": "Kaiti SC",
+      "font_size": 14,
+      "chart_box": [
+        0.7,
+        1.75,
+        11.9,
+        4.6
+      ]
+    },
+    {
+      "id": "03-dumbbell",
+      "type": "dumbbell",
+      "title": "03  哑铃图｜移动端满意度改善最明显",
+      "subtitle": "读前后差：两端是读数，中间距离是变化幅度",
+      "unit": "净推荐值，分",
+      "source": "模拟数据，仅用于展示图形与分析方法",
+      "data": {
+        "categories": [
+          "移动端",
+          "网页端",
+          "门店",
+          "呼叫中心"
+        ],
+        "series": [
+          {
+            "name": "优化前",
+            "values": [
+              22,
+              30,
+              41,
+              12
+            ]
+          },
+          {
+            "name": "优化后",
+            "values": [
+              45,
+              38,
+              46,
+              20
+            ]
+          }
+        ],
+        "min": 0
+      },
+      "footnote": "净推荐值变化用“分”，不写成百分比增长。",
+      "theme": "restrained_navy",
+      "font_family": "Kaiti SC",
+      "font_size": 14,
+      "palette": [
+        "#B7C6D0",
+        "#24465C"
+      ],
+      "chart_box": [
+        0.7,
+        1.75,
+        11.9,
+        4.6
+      ]
+    },
+    {
+      "id": "04-slope",
+      "type": "slope",
+      "title": "04  斜率图｜线上与移动端份额上升",
+      "subtitle": "读结构迁移：只比较两个时点，突出方向与交叉",
+      "unit": "份额，%",
+      "source": "模拟数据，仅用于展示图形与分析方法",
+      "data": {
+        "left_label": "2020年",
+        "right_label": "2025年",
+        "items": [
+          {
+            "label": "门店",
+            "a": 52,
+            "b": 31
+          },
+          {
+            "label": "线上商城",
+            "a": 24,
+            "b": 36
+          },
+          {
+            "label": "移动端",
+            "a": 8,
+            "b": 21
+          },
+          {
+            "label": "电话",
+            "a": 16,
+            "b": 12
+          }
+        ],
+        "highlight": [
+          "线上商城",
+          "移动端"
+        ],
+        "red_down": false
+      },
+      "footnote": "每期份额合计100%；仅连接两个时点，不推断期间路径。",
+      "theme": "restrained_navy",
+      "font_family": "Kaiti SC",
+      "font_size": 14,
+      "chart_box": [
+        0.7,
+        1.75,
+        11.9,
+        4.6
+      ]
+    },
+    {
+      "id": "05-butterfly",
+      "type": "butterfly",
+      "title": "05  蝴蝶图｜两类用户对拍摄与外观的重视不同",
+      "subtitle": "读群体差异：中间共用维度，两侧使用相同尺度",
+      "unit": "选择该项的受访者，%",
+      "source": "模拟数据，仅用于展示图形与分析方法",
+      "data": {
+        "categories": [
+          "价格",
+          "续航",
+          "拍摄",
+          "外观",
+          "品牌"
+        ],
+        "series": [
+          {
+            "name": "用户甲组",
+            "values": [
+              62,
+              55,
+              40,
+              28,
+              35
+            ]
+          },
+          {
+            "name": "用户乙组",
+            "values": [
+              58,
+              49,
+              61,
+              52,
+              30
+            ]
+          }
+        ]
+      },
+      "footnote": "模拟多选调查；各项比例无需加总到100%，两群体分母分别计算。",
+      "theme": "restrained_navy",
+      "font_family": "Kaiti SC",
+      "font_size": 14,
+      "chart_box": [
+        0.7,
+        1.75,
+        11.9,
+        4.6
+      ]
+    },
+    {
+      "id": "06-bar_diverging",
+      "type": "bar_diverging",
+      "title": "06  正负偏差｜业务线利润率变化方向分化",
+      "subtitle": "读偏离：统一零线，改善与恶化分居两侧",
+      "unit": "百分点",
+      "source": "模拟数据，仅用于展示图形与分析方法",
+      "data": {
+        "categories": [
+          "云服务",
+          "终端设备",
+          "专业服务",
+          "广告",
+          "硬件",
+          "授权"
+        ],
+        "values": [
+          4.2,
+          2.1,
+          0.8,
+          -1.5,
+          -2.7,
+          -3.4
+        ],
+        "suffix": "pp"
+      },
+      "footnote": "表示本年减上年利润率；百分点不是相对增长率。",
+      "theme": "restrained_navy",
+      "font_family": "Kaiti SC",
+      "font_size": 14,
+      "chart_box": [
+        0.7,
+        1.75,
+        11.9,
+        4.6
+      ]
+    },
+    {
+      "id": "07-mekko_percent",
+      "type": "mekko_percent",
+      "title": "07  Mekko图｜市场规模与竞争份额放在一张图",
+      "subtitle": "读双重结构：宽度表示市场规模，高度表示份额",
+      "unit": "亿元 / %",
+      "source": "模拟数据，仅用于展示图形与分析方法",
+      "data": {
+        "categories": [
+          "东部市场",
+          "中部市场",
+          "西部市场"
+        ],
+        "widths": [
+          50,
+          30,
+          20
+        ],
+        "series": [
+          {
+            "name": "品牌甲",
+            "values": [
+              40,
+              25,
+              30
+            ]
+          },
+          {
+            "name": "品牌乙",
+            "values": [
+              30,
+              35,
+              20
+            ]
+          },
+          {
+            "name": "品牌丙",
+            "values": [
+              20,
+              25,
+              30
+            ]
+          },
+          {
+            "name": "其他",
+            "values": [
+              10,
+              15,
+              20
+            ]
+          }
+        ],
+        "total_label": "市场规模"
+      },
+      "footnote": "各市场份额合计100%；宽度50∶30∶20，矩形面积代表对应品牌规模。",
+      "theme": "restrained_navy",
+      "font_family": "Kaiti SC",
+      "font_size": 14,
+      "chart_box": [
+        0.7,
+        1.75,
+        11.9,
+        4.6
+      ]
+    },
+    {
+      "id": "08-doughnut",
+      "type": "doughnut",
+      "title": "08  环形图｜线上渠道占总收入的57%",
+      "subtitle": "读少量组成：突出主体，同时保留总量",
+      "unit": "收入占比，%",
+      "source": "模拟数据，仅用于展示图形与分析方法",
+      "data": {
+        "segments": [
+          {
+            "label": "线上",
+            "value": 57
+          },
+          {
+            "label": "零售门店",
+            "value": 24
+          },
+          {
+            "label": "合作渠道",
+            "value": 19
+          }
+        ],
+        "center": "总额1.25亿"
+      },
+      "footnote": "三类互斥且穷尽；需要精确比较近似份额时应换用条形图。",
+      "theme": "restrained_navy",
+      "font_family": "Kaiti SC",
+      "font_size": 14,
+      "chart_box": [
+        0.7,
+        1.75,
+        11.9,
+        4.6
+      ]
+    },
+    {
+      "id": "09-area",
+      "type": "area",
+      "title": "09  堆叠面积｜总访问量增长90%，自然与付费并列贡献最大",
+      "subtitle": "读持续累积：顶边是总量，色带厚度是单项",
+      "unit": "千次访问",
+      "source": "模拟数据，仅用于展示图形与分析方法",
+      "data": {
+        "categories": [
+          "1月",
+          "2月",
+          "3月",
+          "4月",
+          "5月",
+          "6月",
+          "7月",
+          "8月"
+        ],
+        "series": [
+          {
+            "name": "自然流量",
+            "values": [
+              10,
+              11,
+              12,
+              12,
+              13,
+              14,
+              15,
+              16
+            ]
+          },
+          {
+            "name": "付费广告",
+            "values": [
+              6,
+              7,
+              8,
+              10,
+              11,
+              12,
+              13,
+              14
+            ]
+          },
+          {
+            "name": "社交引流",
+            "values": [
+              4,
+              4,
+              5,
+              5,
+              6,
+              6,
+              7,
+              8
+            ]
+          }
+        ]
+      },
+      "footnote": "1至8月总量20增至38；自然和付费各增加6，社交增加4。",
+      "theme": "restrained_navy",
+      "font_family": "Kaiti SC",
+      "font_size": 14,
+      "chart_box": [
+        0.7,
+        1.75,
+        11.9,
+        4.6
+      ]
+    },
+    {
+      "id": "10-bar_percent",
+      "type": "bar_percent",
+      "title": "10  评价分布｜服务满意比例最高，移动端负评最多",
+      "subtitle": "读完整分布：把正向、中性和负向评价一起呈现",
+      "unit": "受访者占比，%",
+      "source": "模拟数据，仅用于展示图形与分析方法",
+      "data": {
+        "categories": [
+          "服务",
+          "价格",
+          "交付",
+          "产品范围",
+          "移动端"
+        ],
+        "series": [
+          {
+            "name": "很满意",
+            "values": [
+              30,
+              15,
+              25,
+              20,
+              12
+            ]
+          },
+          {
+            "name": "满意",
+            "values": [
+              36,
+              30,
+              35,
+              40,
+              28
+            ]
+          },
+          {
+            "name": "中性",
+            "values": [
+              20,
+              30,
+              22,
+              25,
+              30
+            ]
+          },
+          {
+            "name": "不满意",
+            "values": [
+              14,
+              25,
+              18,
+              15,
+              30
+            ]
+          }
+        ],
+        "colors": "likert"
+      },
+      "footnote": "每个维度单选、各行合计100%；深蓝为很满意，酒红为不满意。",
+      "theme": "restrained_navy",
+      "font_family": "Kaiti SC",
+      "font_size": 14,
+      "chart_box": [
+        0.7,
+        1.75,
+        11.9,
+        4.6
+      ]
+    },
+    {
+      "id": "11-bubble",
+      "type": "bubble",
+      "title": "11  气泡图｜客户群的购买周期、利润率与规模",
+      "subtitle": "读三变量：横纵位置表示两项指标，气泡提示规模",
+      "unit": "周期：年；利润率：%",
+      "source": "模拟数据，仅用于展示图形与分析方法",
+      "data": {
+        "points": [
+          {
+            "x": 2,
+            "y": 12,
+            "size": 25,
+            "label": "企业客户"
+          },
+          {
+            "x": 4,
+            "y": 5,
+            "size": 8,
+            "label": "经济型"
+          },
+          {
+            "x": 1,
+            "y": 18,
+            "size": 5,
+            "label": "高频用户"
+          },
+          {
+            "x": 5,
+            "y": 9,
+            "size": 15,
+            "label": "中端用户"
+          },
+          {
+            "x": 3,
+            "y": 15,
+            "size": 3,
+            "label": "尝鲜用户"
+          }
+        ],
+        "x_title": "购买周期（年）",
+        "y_title": "利润率（%）"
+      },
+      "footnote": "气泡大小仅作规模提示，本实现带最小半径，不用于精确面积比比较。",
+      "theme": "restrained_navy",
+      "font_family": "Kaiti SC",
+      "font_size": 14,
+      "chart_box": [
+        0.7,
+        1.75,
+        11.9,
+        4.6
+      ]
+    },
+    {
+      "id": "12-scatter",
+      "type": "scatter",
+      "title": "12  散点图｜较高价格并不必然对应较高满意度",
+      "subtitle": "读关系与异常：用共同坐标比较产品定位",
+      "unit": "价格：元；满意度：分",
+      "source": "模拟数据，仅用于展示图形与分析方法",
+      "data": {
+        "points": [
+          {
+            "x": 12,
+            "y": 60,
+            "label": "A"
+          },
+          {
+            "x": 15,
+            "y": 72,
+            "label": "B"
+          },
+          {
+            "x": 18,
+            "y": 55,
+            "label": "C"
+          },
+          {
+            "x": 22,
+            "y": 80,
+            "label": "D"
+          },
+          {
+            "x": 25,
+            "y": 66,
+            "label": "E"
+          },
+          {
+            "x": 30,
+            "y": 70,
+            "label": "F"
+          },
+          {
+            "x": 34,
+            "y": 58,
+            "label": "G"
+          }
+        ],
+        "x_title": "价格（元）",
+        "y_title": "满意度（分）",
+        "partition": {
+          "x": 23,
+          "y": 65
+        }
+      },
+      "footnote": "分区线为示例阈值：价格23元、满意度65分；相关关系不代表因果。",
+      "theme": "restrained_navy",
+      "font_family": "Kaiti SC",
+      "font_size": 14,
+      "chart_box": [
+        0.7,
+        1.75,
+        11.9,
+        4.6
+      ]
+    },
+    {
+      "id": "13-matrix_2x2",
+      "type": "matrix_2x2",
+      "title": "13  战略矩阵｜云服务与数据分析处于重点投入象限",
+      "subtitle": "读优先级：吸引力与竞争能力分开评估",
+      "unit": "归一化评分0—1",
+      "source": "模拟数据，仅用于展示图形与分析方法",
+      "data": {
+        "x_title": "竞争能力",
+        "y_title": "市场吸引力",
+        "quadrants": [
+          "合作或补能力",
+          "重点投入",
+          "谨慎退出",
+          "维持收获"
+        ],
+        "points": [
+          {
+            "x": 0.78,
+            "y": 0.82,
+            "size": 30,
+            "label": "云服务",
+            "focus": true
+          },
+          {
+            "x": 0.66,
+            "y": 0.68,
+            "size": 18,
+            "label": "数据分析",
+            "focus": true
+          },
+          {
+            "x": 0.3,
+            "y": 0.75,
+            "size": 22,
+            "label": "智能平台"
+          },
+          {
+            "x": 0.75,
+            "y": 0.3,
+            "size": 25,
+            "label": "本地部署"
+          },
+          {
+            "x": 0.22,
+            "y": 0.22,
+            "size": 8,
+            "label": "传统硬件"
+          }
+        ]
+      },
+      "footnote": "模拟评分，不代表事实评估；中线0.5为示例阈值，气泡仅提示收入规模。",
+      "theme": "restrained_navy",
+      "font_family": "Kaiti SC",
+      "font_size": 14,
+      "chart_box": [
+        0.7,
+        1.75,
+        11.9,
+        4.6
+      ]
+    },
+    {
+      "id": "14-heatmap",
+      "type": "heatmap",
+      "title": "14  热力图｜南区硬件利润率是最明显的低点",
+      "subtitle": "读交叉分布：区域与业务维度同时扫描",
+      "unit": "营业利润率，%",
+      "source": "模拟数据，仅用于展示图形与分析方法",
+      "data": {
+        "rows": [
+          "软件",
+          "服务",
+          "硬件",
+          "终端"
+        ],
+        "cols": [
+          "北区",
+          "南区",
+          "东区",
+          "西区",
+          "中区"
+        ],
+        "values": [
+          [
+            32,
+            28,
+            30,
+            31,
+            29
+          ],
+          [
+            22,
+            18,
+            21,
+            20,
+            19
+          ],
+          [
+            12,
+            4,
+            10,
+            9,
+            8
+          ],
+          [
+            15,
+            9,
+            14,
+            13,
+            12
+          ]
+        ],
+        "format": "{:.0f}%"
+      },
+      "footnote": "浅至深对应4%至32%；每格标原始数值，颜色不替代读数。",
+      "theme": "restrained_navy",
+      "font_family": "Kaiti SC",
+      "font_size": 14,
+      "chart_box": [
+        0.7,
+        1.75,
+        11.9,
+        4.6
+      ]
+    },
+    {
+      "id": "15-pareto",
+      "type": "pareto",
+      "title": "15  帕累托图｜前三类问题贡献83%的缺陷",
+      "subtitle": "读集中度：降序频次与累计占比共同决定排查顺序",
+      "unit": "缺陷数，件",
+      "source": "模拟数据，仅用于展示图形与分析方法",
+      "data": {
+        "categories": [
+          "焊接",
+          "装配",
+          "喷漆",
+          "包装",
+          "标签",
+          "螺丝",
+          "其他"
+        ],
+        "values": [
+          120,
+          85,
+          60,
+          22,
+          15,
+          10,
+          8
+        ]
+      },
+      "footnote": "前三项265 / 全部320＝82.8%；80%虚线仅为排序参考。",
+      "theme": "restrained_navy",
+      "font_family": "Kaiti SC",
+      "font_size": 14,
+      "chart_box": [
+        0.7,
+        1.75,
+        11.9,
+        4.6
+      ]
+    },
+    {
+      "id": "16-tornado",
+      "type": "tornado",
+      "title": "16  龙卷风图｜项目价值对价格变化最敏感",
+      "subtitle": "读敏感性：一次改变一个假设，其他条件保持不变",
+      "unit": "净现值，百万元",
+      "source": "模拟数据，仅用于展示图形与分析方法",
+      "data": {
+        "base": 120,
+        "items": [
+          {
+            "label": "价格 ±10%",
+            "low": 78,
+            "high": 162
+          },
+          {
+            "label": "销量 ±15%",
+            "low": 92,
+            "high": 150
+          },
+          {
+            "label": "原料成本 ±10%",
+            "low": 135,
+            "high": 104
+          },
+          {
+            "label": "折现率 ±1pp",
+            "low": 138,
+            "high": 105
+          },
+          {
+            "label": "资本开支 ±20%",
+            "low": 131,
+            "high": 110
+          }
+        ]
+      },
+      "footnote": "基准120；左右端是独立情景结果，不能把各区间相加。",
+      "theme": "restrained_navy",
+      "font_family": "Kaiti SC",
+      "font_size": 14,
+      "chart_box": [
+        0.7,
+        1.75,
+        11.9,
+        4.6
+      ]
+    },
+    {
+      "id": "17-football",
+      "type": "football",
+      "title": "17  区间图｜不同方法给出的估值范围存在交集",
+      "subtitle": "读范围：并列上下界，并用同一参考线比较",
+      "unit": "每股价值，元",
+      "source": "模拟数据，仅用于展示图形与分析方法",
+      "data": {
+        "categories": [
+          "历史价格区间",
+          "可比公司",
+          "可比交易",
+          "现金流折现",
+          "杠杆收购"
+        ],
+        "series": [
+          {
+            "name": "下限",
+            "values": [
+              18,
+              20,
+              23,
+              22,
+              19
+            ]
+          },
+          {
+            "name": "上限",
+            "values": [
+              27,
+              26,
+              31,
+              30,
+              25
+            ]
+          }
+        ],
+        "min": 15,
+        "marker": {
+          "value": 25,
+          "label": "参考报价25"
+        }
+      },
+      "footnote": "区间来自模拟方法测算，不是统计置信区间；虚线为25元参考报价。",
+      "theme": "restrained_navy",
+      "font_family": "Kaiti SC",
+      "font_size": 14,
+      "chart_box": [
+        0.7,
+        1.75,
+        11.9,
+        4.6
+      ]
+    },
+    {
+      "id": "18-radar",
+      "type": "radar",
+      "title": "18  雷达图｜产品与创新领先，服务表现落后",
+      "subtitle": "读能力轮廓：对比多维特征，识别长短板",
+      "unit": "评分0—5",
+      "source": "模拟数据，仅用于展示图形与分析方法",
+      "data": {
+        "axes": [
+          "产品",
+          "价格",
+          "服务",
+          "品牌",
+          "渠道",
+          "创新"
+        ],
+        "max": 5,
+        "series": [
+          {
+            "name": "本企业",
+            "values": [
+              4.6,
+              3.2,
+              2.5,
+              3.8,
+              3.5,
+              4.2
+            ]
+          },
+          {
+            "name": "对手",
+            "values": [
+              3.8,
+              3.9,
+              4.1,
+              4.0,
+              3.0,
+              3.1
+            ]
+          }
+        ]
+      },
+      "footnote": "各维度同方向、同量表；轴顺序会改变轮廓，不比较多边形面积。",
+      "theme": "restrained_navy",
+      "font_family": "Kaiti SC",
+      "font_size": 14,
+      "chart_box": [
+        0.7,
+        1.75,
+        11.9,
+        4.6
+      ]
+    },
+    {
+      "id": "19-table_harvey",
+      "type": "table_harvey",
+      "title": "19  能力对照表｜方案乙覆盖更好，但五年成本更高",
+      "subtitle": "读多维取舍：成熟度、成本与有无能力保留各自语义",
+      "unit": "成熟度0—4级；成本百万元",
+      "source": "模拟数据，仅用于展示图形与分析方法",
+      "data": {
+        "columns": [
+          "方案甲",
+          "方案乙",
+          "方案丙",
+          "方案丁"
+        ],
+        "rows": [
+          {
+            "name": "功能覆盖",
+            "values": [
+              {
+                "harvey": 3
+              },
+              {
+                "harvey": 4
+              },
+              {
+                "harvey": 2
+              },
+              {
+                "harvey": 1
+              }
+            ]
+          },
+          {
+            "name": "集成便利性",
+            "values": [
+              {
+                "harvey": 2
+              },
+              {
+                "harvey": 3
+              },
+              {
+                "harvey": 3
+              },
+              {
+                "harvey": 1
+              }
+            ]
+          },
+          {
+            "name": "五年总成本",
+            "values": [
+              "4.2",
+              "5.1",
+              "3.6",
+              "2.9"
+            ]
+          },
+          {
+            "name": "本地支持",
+            "values": [
+              {
+                "check": true
+              },
+              {
+                "check": true
+              },
+              {
+                "check": false
+              },
+              {
+                "check": true
+              }
+            ]
+          },
+          {
+            "name": "行业案例",
+            "values": [
+              {
+                "harvey": 1
+              },
+              {
+                "harvey": 4
+              },
+              {
+                "harvey": 2
+              },
+              {
+                "harvey": 0
+              }
+            ]
+          }
+        ],
+        "harvey_legend": [
+          "0级",
+          "1级",
+          "2级",
+          "3级",
+          "4级"
+        ]
+      },
+      "footnote": "圆点填充0/25/50/75/100%对应0—4级；有无支持单列，不混成总分。",
+      "theme": "restrained_navy",
+      "font_family": "Kaiti SC",
+      "font_size": 14,
+      "chart_box": [
+        0.7,
+        1.75,
+        11.9,
+        4.6
+      ]
+    },
+    {
+      "id": "20-funnel",
+      "type": "funnel",
+      "title": "20  漏斗图｜最终购买占初始访问的2.4%",
+      "subtitle": "读阶段损耗：每层对应同一批用户的下一步行为",
+      "unit": "用户数，人",
+      "source": "模拟数据，仅用于展示图形与分析方法",
+      "data": {
+        "stages": [
+          {
+            "label": "访问",
+            "value": 100000
+          },
+          {
+            "label": "浏览商品",
+            "value": 42000
+          },
+          {
+            "label": "加入购物车",
+            "value": 9800
+          },
+          {
+            "label": "发起结算",
+            "value": 4100
+          },
+          {
+            "label": "完成购买",
+            "value": 2400
+          }
+        ]
+      },
+      "footnote": "阶段转化率＝本层 / 上层；总体转化率＝购买 / 访问。",
+      "theme": "restrained_navy",
+      "font_family": "Kaiti SC",
+      "font_size": 14,
+      "chart_box": [
+        0.7,
+        1.75,
+        11.9,
+        4.6
+      ]
+    },
+    {
+      "id": "21-tree",
+      "type": "tree",
+      "title": "21  指标拆解树｜资本回报率由利润率和周转率共同决定",
+      "subtitle": "读驱动关系：拆出能核算的乘、减、除关系",
+      "unit": "同一报告期",
+      "source": "模拟数据，仅用于展示图形与分析方法",
+      "data": {
+        "root": {
+          "label": "资本回报率",
+          "value": "14.4%",
+          "children": [
+            {
+              "label": "营业利润率",
+              "value": "9%",
+              "op": "×",
+              "children": [
+                {
+                  "label": "毛利率",
+                  "value": "38%"
+                },
+                {
+                  "label": "费用率",
+                  "value": "29%",
+                  "op": "−"
+                }
+              ]
+            },
+            {
+              "label": "资本周转率",
+              "value": "1.6次",
+              "highlight": true,
+              "children": [
+                {
+                  "label": "收入",
+                  "value": "125百万元"
+                },
+                {
+                  "label": "占用资本",
+                  "value": "78百万元",
+                  "op": "÷"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "footnote": "9%×1.6＝14.4%；毛利率38%－费用率29%＝9%；收入125 / 资本78约为1.6。",
+      "theme": "restrained_navy",
+      "font_family": "Kaiti SC",
+      "font_size": 14,
+      "chart_box": [
+        0.7,
+        1.75,
+        11.9,
+        4.6
+      ]
+    },
+    {
+      "id": "22-bullet",
+      "type": "bullet",
+      "title": "22  子弹图｜收入与口碑达标，利润率与新增客户仍有缺口",
+      "subtitle": "读达成：实际值、目标刻线与评价区间叠在一条轴上",
+      "unit": "各行独立单位与尺度",
+      "source": "模拟数据，仅用于展示图形与分析方法",
+      "data": {
+        "items": [
+          {
+            "label": "收入",
+            "unit": "百万元",
+            "value": 125,
+            "target": 118,
+            "ranges": [
+              90,
+              110,
+              140
+            ]
+          },
+          {
+            "label": "营业利润率",
+            "unit": "%",
+            "value": 19,
+            "target": 21,
+            "ranges": [
+              15,
+              20,
+              25
+            ]
+          },
+          {
+            "label": "净推荐值",
+            "unit": "分",
+            "value": 45,
+            "target": 40,
+            "ranges": [
+              20,
+              35,
+              60
+            ]
+          },
+          {
+            "label": "新增客户",
+            "unit": "千人",
+            "value": 8.2,
+            "target": 9,
+            "ranges": [
+              5,
+              8,
+              12
+            ]
+          }
+        ]
+      },
+      "footnote": "右侧数字为实际 / 目标；各行单位不同，只在同一行比较位置。",
+      "theme": "restrained_navy",
+      "font_family": "Kaiti SC",
+      "font_size": 14,
+      "chart_box": [
+        0.7,
+        1.75,
+        11.9,
+        4.6
+      ]
+    },
+    {
+      "id": "23-gantt_progress",
+      "type": "gantt_progress",
+      "title": "23  甘特进度图｜阶段排期与完成比例同时呈现",
+      "subtitle": "读执行计划：条长代表周期，深色部分代表完成比例",
+      "unit": "2026年1—7月",
+      "source": "模拟数据，仅用于展示图形与分析方法",
+      "data": {
+        "start": "2026-01-05",
+        "end": "2026-07-31",
+        "tasks": [
+          {
+            "name": "需求调研",
+            "start": "2026-01-05",
+            "end": "2026-02-13",
+            "progress": 1.0
+          },
+          {
+            "name": "方案设计",
+            "start": "2026-02-02",
+            "end": "2026-04-03",
+            "progress": 0.9
+          },
+          {
+            "name": "系统开发",
+            "start": "2026-03-16",
+            "end": "2026-06-12",
+            "progress": 0.35
+          },
+          {
+            "name": "数据治理",
+            "start": "2026-02-16",
+            "end": "2026-05-29",
+            "progress": 0.55
+          },
+          {
+            "name": "系统测试",
+            "start": "2026-05-18",
+            "end": "2026-07-03",
+            "progress": 0
+          },
+          {
+            "name": "人员培训",
+            "start": "2026-05-04",
+            "end": "2026-06-26",
+            "progress": 0
+          },
+          {
+            "name": "试点验证",
+            "start": "2026-06-01",
+            "end": "2026-07-10",
+            "progress": 0.0
+          },
+          {
+            "name": "正式上线",
+            "milestone": "2026-07-15",
+            "milestone_label": "上线"
+          }
+        ],
+        "today": "2026-04-20",
+        "activity_header": "工作阶段",
+        "today_label": "状态日"
+      },
+      "footnote": "示例状态日4月20日；完成比例是工作进度，不等于已耗时间比例。",
+      "theme": "restrained_navy",
+      "font_family": "Kaiti SC",
+      "font_size": 14,
+      "chart_box": [
+        0.7,
+        1.75,
+        11.9,
+        4.6
+      ]
+    },
+    {
+      "id": "24-small_multiples",
+      "type": "small_multiples",
+      "title": "24  同尺度分面｜各区域均增长，亚洲增长最快",
+      "subtitle": "读跨组趋势：每格使用同一尺度，保留规模差异",
+      "unit": "百万元",
+      "source": "模拟数据，仅用于展示图形与分析方法",
+      "data": {
+        "categories": [
+          "2021",
+          "2022",
+          "2023",
+          "2024",
+          "2025"
+        ],
+        "cols": 3,
+        "panels": [
+          {
+            "title": "亚洲",
+            "values": [
+              20,
+              26,
+              33,
+              41,
+              52
+            ]
+          },
+          {
+            "title": "欧洲",
+            "values": [
+              40,
+              42,
+              44,
+              45,
+              47
+            ]
+          },
+          {
+            "title": "北美",
+            "values": [
+              50,
+              53,
+              55,
+              58,
+              60
+            ]
+          },
+          {
+            "title": "拉美",
+            "values": [
+              10,
+              11,
+              13,
+              14,
+              16
+            ]
+          },
+          {
+            "title": "非洲",
+            "values": [
+              5,
+              6,
+              6,
+              7,
+              9
+            ]
+          },
+          {
+            "title": "大洋洲",
+            "values": [
+              8,
+              8,
+              9,
+              9,
+              10
+            ]
+          }
+        ]
+      },
+      "footnote": "2021至2025共四个年度间隔；各格统一零基线与最大值，不能分别拉满。",
+      "theme": "restrained_navy",
+      "font_family": "Kaiti SC",
+      "font_size": 14,
+      "chart_box": [
+        0.7,
+        1.75,
+        11.9,
+        4.6
+      ]
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "id": "pareto",
+  "type": "pareto",
+  "title": "Three causes explain 83% of defects",
+  "subtitle": "",
+  "unit": "# defects",
+  "source": "Illustrative data",
+  "data": {
+    "categories": [
+      "Solder",
+      "Alignment",
+      "Paint",
+      "Packaging",
+      "Label",
+      "Screws",
+      "Other"
+    ],
+    "values": [
+      120,
+      85,
+      60,
+      22,
+      15,
+      10,
+      8
+    ]
+  },
+  "highlight": [
+    {
+      "anchor": "83%",
+      "shape": "circle",
+      "w": 0.8,
+      "h": 0.42
+    }
+  ],
+  "callouts": [
+    {
+      "text": "Top 3 causes = 83% of defects",
+      "anchor": "83%",
+      "dx": 3.2,
+      "dy": 0.8
+    }
+  ],
+  "footnote": "Figures rounded; illustrative example"
+}

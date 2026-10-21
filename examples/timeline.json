@@ -1,0 +1,55 @@
+{
+  "id": "timeline",
+  "type": "timeline",
+  "title": "Transformation roadmap 2026–2027",
+  "subtitle": "",
+  "unit": "2026–2027",
+  "source": "Illustrative data",
+  "data": {
+    "start": "2026-01-01",
+    "end": "2027-12-31",
+    "phases": [
+      {
+        "name": "Diagnose",
+        "start": "2026-01-01",
+        "end": "2026-04-30",
+        "color": 2
+      },
+      {
+        "name": "Design",
+        "start": "2026-05-01",
+        "end": "2026-10-31",
+        "color": 1
+      },
+      {
+        "name": "Roll-out",
+        "start": "2026-11-01",
+        "end": "2027-12-31",
+        "color": 0
+      }
+    ],
+    "milestones": [
+      {
+        "date": "2026-03-15",
+        "label": "Baseline done"
+      },
+      {
+        "date": "2026-07-01",
+        "label": "Target model"
+      },
+      {
+        "date": "2026-11-15",
+        "label": "Pilot live"
+      },
+      {
+        "date": "2027-06-30",
+        "label": "50% sites"
+      },
+      {
+        "date": "2027-12-01",
+        "label": "Full scale"
+      }
+    ]
+  },
+  "footnote": "Figures rounded; illustrative example"
+}

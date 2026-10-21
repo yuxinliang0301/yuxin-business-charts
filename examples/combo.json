@@ -1,0 +1,59 @@
+{
+  "id": "combo",
+  "type": "combo",
+  "title": "Revenue grows while margin expands",
+  "subtitle": "",
+  "unit": "$M / %",
+  "source": "Illustrative data",
+  "data": {
+    "categories": [
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "columns": [
+      {
+        "name": "Services",
+        "values": [
+          20,
+          24,
+          28,
+          33,
+          40
+        ]
+      },
+      {
+        "name": "Products",
+        "values": [
+          55,
+          60,
+          68,
+          76,
+          85
+        ]
+      }
+    ],
+    "line": {
+      "name": "EBIT margin",
+      "values": [
+        8,
+        9.5,
+        11,
+        12,
+        14
+      ],
+      "suffix": "%"
+    }
+  },
+  "callouts": [
+    {
+      "text": "Margin +6 pp in 4 years",
+      "anchor": "14%",
+      "dx": -5.0,
+      "dy": 0.1
+    }
+  ],
+  "footnote": "Figures rounded; illustrative example"
+}

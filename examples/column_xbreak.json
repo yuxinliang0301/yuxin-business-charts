@@ -1,0 +1,34 @@
+{
+  "id": "column_xbreak",
+  "type": "column_xbreak",
+  "title": "Revenue doubled from 2010 to 2025",
+  "subtitle": "",
+  "unit": "$M",
+  "source": "Illustrative data",
+  "data": {
+    "categories": [
+      "2010",
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "values": [
+      50,
+      78,
+      86,
+      94,
+      101
+    ],
+    "break_after": 0
+  },
+  "callouts": [
+    {
+      "text": "Pre-merger baseline",
+      "anchor": "50",
+      "dx": 1.9,
+      "dy": -1.3
+    }
+  ],
+  "footnote": "Figures rounded; illustrative example"
+}

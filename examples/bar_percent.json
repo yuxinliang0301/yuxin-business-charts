@@ -1,0 +1,61 @@
+{
+  "id": "bar_percent",
+  "type": "bar_percent",
+  "title": "Two-thirds of customers are satisfied with service",
+  "subtitle": "",
+  "unit": "% respondents",
+  "source": "Illustrative data",
+  "data": {
+    "categories": [
+      "Service",
+      "Price",
+      "Delivery",
+      "Product range",
+      "App"
+    ],
+    "series": [
+      {
+        "name": "Very satisfied",
+        "values": [
+          30,
+          15,
+          25,
+          20,
+          12
+        ]
+      },
+      {
+        "name": "Satisfied",
+        "values": [
+          36,
+          30,
+          35,
+          40,
+          28
+        ]
+      },
+      {
+        "name": "Neutral",
+        "values": [
+          20,
+          30,
+          22,
+          25,
+          30
+        ]
+      },
+      {
+        "name": "Dissatisfied",
+        "values": [
+          14,
+          25,
+          18,
+          15,
+          30
+        ]
+      }
+    ],
+    "colors": "likert"
+  },
+  "footnote": "Figures rounded; illustrative example"
+}

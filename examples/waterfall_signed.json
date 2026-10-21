@@ -1,0 +1,49 @@
+{
+  "id": "waterfall_signed",
+  "type": "waterfall",
+  "title": "EBIT bridge with signed labels and sign colors",
+  "subtitle": "",
+  "unit": "$M",
+  "source": "Illustrative data",
+  "data": {
+    "items": [
+      {
+        "label": "EBIT 2024",
+        "value": 40,
+        "kind": "start"
+      },
+      {
+        "label": "Price",
+        "value": 9
+      },
+      {
+        "label": "Mix",
+        "value": 4
+      },
+      {
+        "label": "Input cost",
+        "value": -11
+      },
+      {
+        "label": "Opex",
+        "value": -3
+      },
+      {
+        "label": "EBIT 2025",
+        "value": 39,
+        "kind": "total"
+      }
+    ],
+    "signed_labels": true,
+    "color_by_sign": true
+  },
+  "callouts": [
+    {
+      "text": "Commodity spike in H1",
+      "category": "Input cost",
+      "dx": 0,
+      "dy": 2.2
+    }
+  ],
+  "footnote": "Figures rounded; illustrative example"
+}

@@ -1,0 +1,61 @@
+{
+  "id": "gantt_progress",
+  "type": "gantt_progress",
+  "title": "Programme status: design 90% complete, build 35%",
+  "subtitle": "",
+  "unit": "2026, % complete",
+  "source": "Illustrative data",
+  "data": {
+    "start": "2026-01-05",
+    "end": "2026-07-31",
+    "tasks": [
+      {
+        "name": "Discovery",
+        "start": "2026-01-05",
+        "end": "2026-02-13",
+        "progress": 1.0
+      },
+      {
+        "name": "Design",
+        "start": "2026-02-02",
+        "end": "2026-04-03",
+        "progress": 0.9
+      },
+      {
+        "name": "Build",
+        "start": "2026-03-16",
+        "end": "2026-06-12",
+        "progress": 0.35
+      },
+      {
+        "name": "Test",
+        "start": "2026-05-18",
+        "end": "2026-07-03",
+        "progress": 0.05
+      },
+      {
+        "name": "Go-live",
+        "milestone": "2026-07-15",
+        "milestone_label": "Go-live"
+      }
+    ],
+    "today": "2026-04-20"
+  },
+  "highlight": [
+    {
+      "anchor": "35%",
+      "shape": "circle",
+      "w": 0.7,
+      "h": 0.4
+    }
+  ],
+  "callouts": [
+    {
+      "text": "Build 3 weeks behind",
+      "anchor": "35%",
+      "dx": 1.3,
+      "dy": 0.8
+    }
+  ],
+  "footnote": "Figures rounded; illustrative example"
+}

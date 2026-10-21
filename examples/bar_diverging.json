@@ -1,0 +1,36 @@
+{
+  "id": "bar_diverging",
+  "type": "bar_diverging",
+  "title": "Margin change by business unit",
+  "subtitle": "",
+  "unit": "pp",
+  "source": "Illustrative data",
+  "data": {
+    "categories": [
+      "Cloud",
+      "Devices",
+      "Services",
+      "Ads",
+      "Hardware",
+      "Licensing"
+    ],
+    "values": [
+      4.2,
+      2.1,
+      0.8,
+      -1.5,
+      -2.7,
+      -3.4
+    ],
+    "suffix": "pp"
+  },
+  "callouts": [
+    {
+      "text": "Legacy contracts expiring",
+      "anchor": "-3.4pp",
+      "dx": -1.6,
+      "dy": -1.1
+    }
+  ],
+  "footnote": "Figures rounded; illustrative example"
+}

@@ -1,0 +1,34 @@
+{
+ "type": "butterfly",
+ "title": "Feature value",
+ "source": "Survey",
+ "data": {
+  "categories": [
+   "Price",
+   "Battery"
+  ],
+  "series": [
+   {
+    "name": "Men",
+    "values": [
+     62,
+     55
+    ]
+   },
+   {
+    "name": "Women",
+    "values": [
+     58,
+     50
+    ]
+   },
+   {
+    "name": "Other",
+    "values": [
+     3,
+     4
+    ]
+   }
+  ]
+ }
+}

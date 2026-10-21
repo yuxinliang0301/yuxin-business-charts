@@ -1,0 +1,45 @@
+{
+  "id": "column",
+  "type": "column",
+  "title": "Revenue has grown every year since 2021",
+  "subtitle": "",
+  "unit": "$M",
+  "source": "Illustrative data",
+  "data": {
+    "categories": [
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "series": [
+      {
+        "name": "Revenue",
+        "values": [
+          75,
+          84,
+          96,
+          109,
+          125
+        ]
+      }
+    ]
+  },
+  "decorations": [
+    {
+      "type": "cagr",
+      "from": 0,
+      "to": 4
+    }
+  ],
+  "callouts": [
+    {
+      "text": "Record year: +15% YoY",
+      "category": "2025",
+      "dx": -7.6,
+      "dy": 0.1
+    }
+  ],
+  "footnote": "Figures rounded; illustrative example"
+}

@@ -1,0 +1,65 @@
+{
+  "id": "bullet",
+  "type": "bullet",
+  "title": "Revenue and NPS ahead of target, margin behind",
+  "subtitle": "",
+  "unit": "YTD actual vs target",
+  "source": "Illustrative data",
+  "data": {
+    "items": [
+      {
+        "label": "Revenue",
+        "unit": "$M",
+        "value": 125,
+        "target": 118,
+        "ranges": [
+          90,
+          110,
+          140
+        ]
+      },
+      {
+        "label": "EBIT margin",
+        "unit": "%",
+        "value": 19,
+        "target": 21,
+        "ranges": [
+          15,
+          20,
+          25
+        ]
+      },
+      {
+        "label": "NPS",
+        "unit": "pts",
+        "value": 45,
+        "target": 40,
+        "ranges": [
+          20,
+          35,
+          60
+        ]
+      },
+      {
+        "label": "New customers",
+        "unit": "k",
+        "value": 8.2,
+        "target": 9,
+        "ranges": [
+          5,
+          8,
+          12
+        ]
+      }
+    ]
+  },
+  "callouts": [
+    {
+      "text": "Mix headwind in Q3",
+      "anchor": "19 / 21",
+      "dx": -1.6,
+      "dy": 0.62
+    }
+  ],
+  "footnote": "Figures rounded; illustrative example"
+}

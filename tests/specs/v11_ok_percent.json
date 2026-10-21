@@ -1,0 +1,27 @@
+{
+ "type": "percent",
+ "title": "Mix shift",
+ "source": "ERP",
+ "data": {
+  "categories": [
+   "2024",
+   "2025"
+  ],
+  "series": [
+   {
+    "name": "A",
+    "values": [
+     60,
+     55
+    ]
+   },
+   {
+    "name": "B",
+    "values": [
+     40,
+     45
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,29 @@
+Yuxin 商业图表助手 (yuxin-business-charts)
+Customized edition by Yuxin. Based on the upstream work below.
+
+zerox-thinkcell-charts
+Copyright 2026 ZeroxZhang and contributors.
+
+The original code, documentation, example specifications, and generated
+example charts in this skill directory are licensed under the Apache
+License, Version 2.0. See LICENSE for the full text.
+This notice does not license other skills in the parent zerox-skills suite.
+
+Third-party reference images
+----------------------------
+Original images kept locally in references/img/ and references/palettes/
+are external visual references, not generated output of this project.
+These image files are excluded from the public Git distribution and
+from this project's Apache-2.0 grant. They remain subject to their
+original rights and terms; no redistribution rights are asserted.
+Source URLs and provenance are recorded in references/SOURCES.csv and
+references/palettes/SOURCES.csv. The user-ref--A.png and user-ref--B.png
+files were supplied as visual references; no open license is asserted
+for these files.
+
+The README galleries use this project's generated examples/*.png and
+gallery/palettes/*.png, not the third-party reference screenshots.
+
+This is an independent project and is not affiliated with or endorsed
+by think-cell. The think-cell name belongs to its respective owner.
+Dependencies retain their own licenses; they are not bundled here.

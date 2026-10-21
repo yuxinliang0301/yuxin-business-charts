@@ -1,0 +1,48 @@
+{
+  "id": "column_target",
+  "type": "column_target",
+  "title": "Three of five regions hit their target",
+  "subtitle": "",
+  "unit": "$M",
+  "source": "Illustrative data",
+  "data": {
+    "categories": [
+      "North",
+      "South",
+      "East",
+      "West",
+      "Central"
+    ],
+    "actual": [
+      52,
+      38,
+      47,
+      29,
+      41
+    ],
+    "target": [
+      48,
+      42,
+      45,
+      35,
+      40
+    ]
+  },
+  "highlight": [
+    {
+      "anchor": "-17%",
+      "shape": "circle",
+      "w": 0.9,
+      "h": 0.45
+    }
+  ],
+  "callouts": [
+    {
+      "text": "Two key accounts lost",
+      "anchor": "-17%",
+      "dx": 1.6,
+      "dy": -1.15
+    }
+  ],
+  "footnote": "Figures rounded; illustrative example"
+}

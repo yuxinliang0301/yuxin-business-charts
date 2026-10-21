@@ -1,0 +1,21 @@
+{
+ "type": "pie",
+ "title": "Channel mix",
+ "source": "CRM",
+ "data": {
+  "segments": [
+   {
+    "label": "Online",
+    "value": 55
+   },
+   {
+    "label": "Retail",
+    "value": 24
+   },
+   {
+    "label": "Partners",
+    "value": 18
+   }
+  ]
+ }
+}

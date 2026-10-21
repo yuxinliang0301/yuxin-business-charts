@@ -1,0 +1,48 @@
+{
+  "id": "slope",
+  "type": "slope",
+  "title": "Online and App gained share, Stores lost most",
+  "subtitle": "",
+  "unit": "% share",
+  "source": "Illustrative data",
+  "data": {
+    "left_label": "2020",
+    "right_label": "2025",
+    "items": [
+      {
+        "label": "Stores",
+        "a": 52,
+        "b": 31
+      },
+      {
+        "label": "Online",
+        "a": 24,
+        "b": 36
+      },
+      {
+        "label": "App",
+        "a": 8,
+        "b": 21
+      },
+      {
+        "label": "Phone",
+        "a": 16,
+        "b": 12
+      }
+    ],
+    "highlight": [
+      "Online",
+      "App"
+    ],
+    "red_down": true
+  },
+  "callouts": [
+    {
+      "text": "App share 2.6x",
+      "anchor": "21  App",
+      "dx": 0.9,
+      "dy": -0.55
+    }
+  ],
+  "footnote": "Figures rounded; illustrative example"
+}

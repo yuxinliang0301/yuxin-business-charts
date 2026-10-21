@@ -1,0 +1,79 @@
+{
+  "id": "kpi_cards",
+  "type": "kpi_cards",
+  "title": "Q3 at a glance",
+  "subtitle": "",
+  "unit": "Q3 2026 vs Q3 2025",
+  "source": "Illustrative data",
+  "data": {
+    "cols": 4,
+    "cards": [
+      {
+        "label": "Revenue",
+        "value": "$125M",
+        "delta": "+14.7% YoY",
+        "spark": [
+          75,
+          84,
+          96,
+          109,
+          125
+        ]
+      },
+      {
+        "label": "EBIT margin",
+        "value": "21.0%",
+        "delta": "+2.6 pp",
+        "spark": [
+          16,
+          17,
+          18.4,
+          19,
+          21
+        ]
+      },
+      {
+        "label": "NPS",
+        "value": "45",
+        "delta": "+23 pts",
+        "spark": [
+          10,
+          15,
+          22,
+          30,
+          45
+        ]
+      },
+      {
+        "label": "Churn",
+        "value": "2.0%",
+        "delta": "+0.3 pp",
+        "good": false,
+        "spark": [
+          1.6,
+          1.7,
+          1.7,
+          1.8,
+          2.0
+        ]
+      }
+    ]
+  },
+  "highlight": [
+    {
+      "anchor": "2.0%",
+      "shape": "circle",
+      "w": 1.6,
+      "h": 0.75
+    }
+  ],
+  "callouts": [
+    {
+      "text": "Above 1.8% ceiling",
+      "anchor": "+0.3 pp",
+      "dx": 0.4,
+      "dy": 0.9
+    }
+  ],
+  "footnote": "Figures rounded; illustrative example"
+}

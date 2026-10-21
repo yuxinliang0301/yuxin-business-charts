@@ -1,0 +1,57 @@
+{
+  "id": "stacked_value_line",
+  "type": "stacked",
+  "title": "Revenue exceeds the 5-year average from 2024",
+  "subtitle": "",
+  "unit": "$M",
+  "source": "Illustrative data",
+  "data": {
+    "categories": [
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "series": [
+      {
+        "name": "Seg C",
+        "values": [
+          10,
+          12,
+          15,
+          19,
+          25
+        ]
+      },
+      {
+        "name": "Seg B",
+        "values": [
+          25,
+          28,
+          33,
+          38,
+          43
+        ]
+      },
+      {
+        "name": "Seg A",
+        "values": [
+          40,
+          44,
+          48,
+          52,
+          57
+        ]
+      }
+    ]
+  },
+  "decorations": [
+    {
+      "type": "value_line",
+      "value": 97.8,
+      "label": "Avg 97.8"
+    }
+  ],
+  "footnote": "Figures rounded; illustrative example"
+}

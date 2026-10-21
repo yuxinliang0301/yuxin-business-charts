@@ -1,0 +1,38 @@
+{
+ "type": "mekko_percent",
+ "title": "Brand share by market",
+ "source": "Nielsen",
+ "data": {
+  "categories": [
+   "China",
+   "US",
+   "EU"
+  ],
+  "series": [
+   {
+    "name": "Brand A",
+    "values": [
+     40,
+     25,
+     30
+    ]
+   },
+   {
+    "name": "Brand B",
+    "values": [
+     30,
+     35,
+     20
+    ]
+   },
+   {
+    "name": "Others",
+    "values": [
+     30,
+     40,
+     50
+    ]
+   }
+  ]
+ }
+}

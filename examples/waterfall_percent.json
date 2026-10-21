@@ -1,0 +1,50 @@
+{
+  "id": "waterfall_percent",
+  "type": "waterfall_percent",
+  "title": "Margin expanded 2.6 pp, mostly from mix",
+  "subtitle": "",
+  "unit": "% / pp",
+  "source": "Illustrative data",
+  "data": {
+    "items": [
+      {
+        "label": "Margin 2024",
+        "value": 18.4,
+        "kind": "start"
+      },
+      {
+        "label": "Price",
+        "value": 1.2
+      },
+      {
+        "label": "Mix",
+        "value": 2.1
+      },
+      {
+        "label": "Input cost",
+        "value": -1.5
+      },
+      {
+        "label": "Scale",
+        "value": 0.8
+      },
+      {
+        "label": "Margin 2025",
+        "value": 21.0,
+        "kind": "total"
+      }
+    ],
+    "format": "{:.1f}%",
+    "delta_format": "{:+.1f}pp",
+    "signed_labels": true
+  },
+  "callouts": [
+    {
+      "text": "Premium range +40% volume",
+      "category": "Mix",
+      "dx": 0,
+      "dy": 2.2
+    }
+  ],
+  "footnote": "Figures rounded; illustrative example"
+}

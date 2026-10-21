@@ -1,0 +1,420 @@
+{
+ "id": "dash_three_column",
+ "type": "dashboard",
+ "palette": "ops_bright",
+ "series_colors": {
+  "Team A": "#0070C0",
+  "Team B": "#EA6A06",
+  "Team C": "#4EA72E",
+  "Others": "#BFBFBF",
+  "Overall": "#000000",
+  "Team D": "#E8B400"
+ },
+ "title_tag": {
+  "text": "Region A",
+  "fill": "yellow"
+ },
+ "title": "Metric A & YoY & Metric B & Metric C% by Group [units/%]",
+ "source": "Illustrative data (not real figures)",
+ "footnotes": [
+  [
+   {
+    "text": "Illustrative dataset "
+   },
+   {
+    "text": "(illustrative)",
+    "color": "red",
+    "bold": true
+   }
+  ],
+  "Sample: illustrative units only"
+ ],
+ "panels": [
+  {
+   "box": [
+    0,
+    0,
+    0.36,
+    1
+   ],
+   "title": "Metric A (units)",
+   "title_style": "red",
+   "chart": {
+    "kind": "area_stack",
+    "data": {
+     "categories": [
+      "Q1",
+      "Q2",
+      "Q3",
+      "M1",
+      "M2",
+      "M3",
+      "M4",
+      "M5",
+      "M6"
+     ],
+     "series": [
+      {
+       "name": "Team A",
+       "values": [
+        3.0,
+        4.2,
+        5.2,
+        5.7,
+        6.3,
+        7.1,
+        6.0,
+        6.4,
+        6.9
+       ]
+      },
+      {
+       "name": "Team B",
+       "values": [
+        2.7,
+        3.2,
+        3.9,
+        4.5,
+        5.1,
+        5.4,
+        4.9,
+        5.6,
+        5.8
+       ]
+      },
+      {
+       "name": "Team C",
+       "values": [
+        0.2,
+        0.2,
+        0.3,
+        0.3,
+        0.3,
+        0.4,
+        0.3,
+        0.4,
+        0.4
+       ]
+      },
+      {
+       "name": "Others",
+       "values": [
+        3.8,
+        4.3,
+        5.2,
+        6.1,
+        6.9,
+        7.6,
+        7.8,
+        8.2,
+        8.4
+       ]
+      }
+     ]
+    },
+    "segments": [
+     {
+      "from": 0,
+      "to": 2,
+      "label": "By Q"
+     },
+     {
+      "from": 3,
+      "to": 8,
+      "label": "By M"
+     }
+    ],
+    "decimals": 1,
+    "font_size": 7
+   }
+  },
+  {
+   "box": [
+    0.375,
+    0,
+    0.3,
+    0.37
+   ],
+   "title": "Metric C%",
+   "title_style": "red",
+   "chart": {
+    "kind": "lines",
+    "data": {
+     "categories": [
+      "Q1",
+      "Q2",
+      "Q3",
+      "M1",
+      "M2",
+      "M3",
+      "M4",
+      "M5",
+      "M6"
+     ],
+     "series": [
+      {
+       "name": "Team A",
+       "values": [
+        21.1,
+        22.8,
+        23.7,
+        22.5,
+        23.1,
+        22.5,
+        21.0,
+        20.7,
+        21.8
+       ]
+      },
+      {
+       "name": "Overall",
+       "values": [
+        17.4,
+        18.5,
+        19.2,
+        18.6,
+        18.5,
+        18.3,
+        17.2,
+        17.4,
+        18.0
+       ]
+      },
+      {
+       "name": "Team B",
+       "values": [
+        14.4,
+        14.9,
+        15.3,
+        15.0,
+        15.1,
+        14.5,
+        14.1,
+        14.7,
+        15.0
+       ]
+      },
+      {
+       "name": "Others",
+       "values": [
+        6.0,
+        6.6,
+        7.4,
+        7.6,
+        7.8,
+        7.6,
+        7.6,
+        7.8,
+        7.9
+       ]
+      }
+     ]
+    },
+    "suffix": "%",
+    "decimals": 1,
+    "segments": [
+     {
+      "from": 0,
+      "to": 2,
+      "label": "By Q"
+     },
+     {
+      "from": 3,
+      "to": 8,
+      "label": "By M"
+     }
+    ],
+    "font_size": 6.5,
+    "line_width": 1.25,
+    "annotations": [
+     {
+      "type": "arrow",
+      "from": [
+       0.62,
+       0.12
+      ],
+      "to": [
+       0.72,
+       0.3
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "box": [
+    0.375,
+    0.39,
+    0.3,
+    0.61
+   ],
+   "title": "Metric B (units)",
+   "title_style": "red",
+   "chart": {
+    "kind": "area_stack",
+    "data": {
+     "categories": [
+      "Q1",
+      "Q2",
+      "Q3",
+      "M1",
+      "M2",
+      "M3",
+      "M4",
+      "M5",
+      "M6"
+     ],
+     "series": [
+      {
+       "name": "Team A",
+       "values": [
+        21,
+        26,
+        30,
+        34,
+        39,
+        45,
+        42,
+        46,
+        45
+       ]
+      },
+      {
+       "name": "Team B",
+       "values": [
+        27,
+        30,
+        36,
+        45,
+        51,
+        54,
+        52,
+        57,
+        57
+       ]
+      },
+      {
+       "name": "Team C",
+       "values": [
+        2,
+        2,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+       ]
+      },
+      {
+       "name": "Others",
+       "values": [
+        93,
+        99,
+        106,
+        117,
+        129,
+        147,
+        153,
+        159,
+        156
+       ]
+      }
+     ]
+    },
+    "font_size": 6.5,
+    "decimals": 0
+   }
+  },
+  {
+   "box": [
+    0.69,
+    0,
+    0.31,
+    1
+   ],
+   "title": "Metric A YoY",
+   "title_style": "red",
+   "chart": {
+    "kind": "lines",
+    "data": {
+     "categories": [
+      "Q1",
+      "Q2",
+      "Q3",
+      "M1",
+      "M2",
+      "M3",
+      "M4",
+      "M5",
+      "M6"
+     ],
+     "series": [
+      {
+       "name": "Others",
+       "values": [
+        192,
+        188,
+        171,
+        153,
+        165,
+        174,
+        188,
+        168,
+        130
+       ],
+       "label_pos": "below"
+      },
+      {
+       "name": "Team A",
+       "values": [
+        232,
+        252,
+        256,
+        225,
+        237,
+        213,
+        189,
+        194,
+        124
+       ]
+      },
+      {
+       "name": "Team B",
+       "values": [
+        186,
+        153,
+        150,
+        144,
+        152,
+        144,
+        156,
+        148,
+        118
+       ],
+       "label_pos": "below"
+      }
+     ]
+    },
+    "suffix": "%",
+    "smooth": true,
+    "segments": [
+     {
+      "from": 0,
+      "to": 2,
+      "label": "By Q"
+     },
+     {
+      "from": 3,
+      "to": 8,
+      "label": "By M"
+     }
+    ],
+    "font_size": 7,
+    "pad_hi": 3.3,
+    "pad_lo": 3.3
+   }
+  }
+ ]
+}

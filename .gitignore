@@ -1,0 +1,20 @@
+# 本地环境与手工渲染输出，不属于示例库
+.venv/
+.out/
+out/
+out_png/
+out.pptx
+all.pptx
+*.egg-info/
+
+# 原始第三方取色/版式参考仅留本地，公开来源索引，生成示例照常发布
+/references/img/
+/references/palettes/*.jpg
+/references/palettes/*.png
+
+# Local runtime, caches and credentials
+__pycache__/
+*.py[cod]
+.DS_Store
+.env
+.env.*

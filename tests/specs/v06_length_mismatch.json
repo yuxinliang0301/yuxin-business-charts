@@ -1,0 +1,29 @@
+{
+ "type": "stacked",
+ "title": "Revenue by segment",
+ "source": "10-K",
+ "data": {
+  "categories": [
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "series": [
+   {
+    "name": "A",
+    "values": [
+     1,
+     2,
+     3
+    ]
+   },
+   {
+    "name": "B",
+    "values": [
+     4,
+     5
+    ]
+   }
+  ]
+ }
+}

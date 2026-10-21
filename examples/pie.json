@@ -1,0 +1,33 @@
+{
+  "id": "pie",
+  "type": "pie",
+  "title": "Heating dominates household energy use",
+  "subtitle": "",
+  "unit": "%",
+  "source": "Illustrative data",
+  "data": {
+    "segments": [
+      {
+        "label": "Heating",
+        "value": 57
+      },
+      {
+        "label": "Cooling",
+        "value": 24
+      },
+      {
+        "label": "Other",
+        "value": 19
+      }
+    ]
+  },
+  "callouts": [
+    {
+      "text": "Insulation could cut 30%",
+      "anchor": "57%",
+      "dx": 3.6,
+      "dy": 1.0
+    }
+  ],
+  "footnote": "Figures rounded; illustrative example"
+}

@@ -1,0 +1,84 @@
+{
+  "id": "stacked_clustered",
+  "type": "stacked_clustered",
+  "title": "Actuals beat plan in every year across all segments",
+  "subtitle": "",
+  "unit": "$M",
+  "source": "Illustrative data",
+  "data": {
+    "categories": [
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "groups": [
+      {
+        "name": "Plan",
+        "series": [
+          {
+            "name": "Seg C",
+            "values": [
+              12,
+              15,
+              20
+            ]
+          },
+          {
+            "name": "Seg B",
+            "values": [
+              30,
+              33,
+              38
+            ]
+          },
+          {
+            "name": "Seg A",
+            "values": [
+              45,
+              48,
+              52
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Actual",
+        "series": [
+          {
+            "name": "Seg C",
+            "values": [
+              15,
+              19,
+              25
+            ]
+          },
+          {
+            "name": "Seg B",
+            "values": [
+              33,
+              38,
+              43
+            ]
+          },
+          {
+            "name": "Seg A",
+            "values": [
+              48,
+              52,
+              57
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "callouts": [
+    {
+      "text": "Actual +14% vs plan",
+      "anchor": "125",
+      "dx": -2.6,
+      "dy": -0.1
+    }
+  ],
+  "footnote": "Figures rounded; illustrative example"
+}

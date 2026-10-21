@@ -1,0 +1,62 @@
+{
+  "id": "area",
+  "type": "area",
+  "title": "Total visits grew 90%, paid ads drove most",
+  "subtitle": "",
+  "unit": "k visits",
+  "source": "Illustrative data",
+  "data": {
+    "categories": [
+      "Jan",
+      "Feb",
+      "Mar",
+      "Apr",
+      "May",
+      "Jun",
+      "Jul",
+      "Aug"
+    ],
+    "series": [
+      {
+        "name": "Organic",
+        "values": [
+          10,
+          11,
+          12,
+          12,
+          13,
+          14,
+          15,
+          16
+        ]
+      },
+      {
+        "name": "Paid ads",
+        "values": [
+          6,
+          7,
+          8,
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      },
+      {
+        "name": "Social",
+        "values": [
+          4,
+          4,
+          5,
+          5,
+          6,
+          6,
+          7,
+          8
+        ]
+      }
+    ]
+  },
+  "footnote": "Figures rounded; illustrative example"
+}

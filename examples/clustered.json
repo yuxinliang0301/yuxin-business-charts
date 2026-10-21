@@ -1,0 +1,50 @@
+{
+  "id": "clustered",
+  "type": "clustered",
+  "title": "Region North outperforms in every year",
+  "subtitle": "",
+  "unit": "$M",
+  "source": "Illustrative data",
+  "data": {
+    "categories": [
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "series": [
+      {
+        "name": "North",
+        "values": [
+          42,
+          48,
+          55
+        ]
+      },
+      {
+        "name": "South",
+        "values": [
+          35,
+          37,
+          40
+        ]
+      },
+      {
+        "name": "West",
+        "values": [
+          20,
+          24,
+          26
+        ]
+      }
+    ]
+  },
+  "callouts": [
+    {
+      "text": "North +31% since 2023",
+      "anchor": "55",
+      "dx": -2.6,
+      "dy": -0.1
+    }
+  ],
+  "footnote": "Figures rounded; illustrative example"
+}

@@ -1,0 +1,20 @@
+{
+ "type": "column",
+ "title": "Margin",
+ "source": "FP&A",
+ "data": {
+  "categories": [
+   "2024",
+   "2025"
+  ],
+  "series": [
+   {
+    "name": "Margin",
+    "values": [
+     "12%",
+     "14%"
+    ]
+   }
+  ]
+ }
+}

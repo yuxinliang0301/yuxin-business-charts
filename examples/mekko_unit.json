@@ -1,0 +1,42 @@
+{
+  "id": "mekko_unit",
+  "type": "mekko_unit",
+  "title": "US is smaller, with Brand B ahead of Brand A",
+  "subtitle": "",
+  "unit": "$B",
+  "source": "Illustrative data",
+  "data": {
+    "categories": [
+      "China",
+      "US",
+      "EU"
+    ],
+    "series": [
+      {
+        "name": "Brand A",
+        "values": [
+          20,
+          7.5,
+          6
+        ]
+      },
+      {
+        "name": "Brand B",
+        "values": [
+          15,
+          10.5,
+          4
+        ]
+      },
+      {
+        "name": "Others",
+        "values": [
+          15,
+          12,
+          10
+        ]
+      }
+    ]
+  },
+  "footnote": "Figures rounded; illustrative example"
+}

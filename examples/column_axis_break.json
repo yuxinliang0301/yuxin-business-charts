@@ -1,0 +1,42 @@
+{
+  "id": "column_axis_break",
+  "type": "column",
+  "title": "One outlier year dwarfs the rest – axis break keeps detail readable",
+  "subtitle": "",
+  "unit": "# deals",
+  "source": "Illustrative data",
+  "data": {
+    "categories": [
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "series": [
+      {
+        "name": "Deals",
+        "values": [
+          14,
+          18,
+          391,
+          22,
+          27
+        ]
+      }
+    ],
+    "axis_break": {
+      "from": 40,
+      "to": 360
+    }
+  },
+  "callouts": [
+    {
+      "text": "One-off portfolio deal",
+      "category": "2023",
+      "dx": 2.4,
+      "dy": 0.6
+    }
+  ],
+  "footnote": "Figures rounded; illustrative example"
+}

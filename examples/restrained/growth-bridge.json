@@ -1,0 +1,41 @@
+{
+  "id": "growth-bridge",
+  "theme": "restrained_navy",
+  "type": "waterfall",
+  "title": "净增 24 万元，新增客户贡献 30 万元",
+  "subtitle": "起点 + 各项净贡献 = 终点；各项贡献互斥",
+  "unit": "万元",
+  "data": {
+    "items": [
+      {
+        "label": "期初",
+        "value": 120,
+        "kind": "start"
+      },
+      {
+        "label": "新增客户",
+        "value": 30
+      },
+      {
+        "label": "扩购",
+        "value": 14
+      },
+      {
+        "label": "流失",
+        "value": -12
+      },
+      {
+        "label": "价格调整",
+        "value": -8
+      },
+      {
+        "label": "期末",
+        "value": 144,
+        "kind": "total"
+      }
+    ],
+    "signed_labels": true
+  },
+  "source": "Synthetic demonstration data; not business evidence",
+  "footnote": "Illustrative example; reporting period: Jan-Jun 2026"
+}

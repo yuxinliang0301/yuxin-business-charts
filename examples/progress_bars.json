@@ -1,0 +1,47 @@
+{
+  "id": "progress_bars",
+  "type": "progress_bars",
+  "title": "Initiatives behind plan: procurement and pricing",
+  "subtitle": "",
+  "unit": "$M",
+  "source": "Illustrative data",
+  "data": {
+    "expected": 0.6,
+    "items": [
+      {
+        "label": "Procurement savings",
+        "value": 4.1,
+        "target": 12
+      },
+      {
+        "label": "Pricing uplift",
+        "value": 3.2,
+        "target": 8
+      },
+      {
+        "label": "SG&A reduction",
+        "value": 6.5,
+        "target": 10
+      },
+      {
+        "label": "Footprint",
+        "value": 2.8,
+        "target": 4
+      },
+      {
+        "label": "Working capital",
+        "value": 15,
+        "target": 20
+      }
+    ]
+  },
+  "callouts": [
+    {
+      "text": "Supplier renegotiation delayed",
+      "anchor": "34%",
+      "dx": -2.6,
+      "dy": 0.55
+    }
+  ],
+  "footnote": "Figures rounded; illustrative example"
+}

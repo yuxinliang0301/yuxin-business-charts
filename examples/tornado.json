@@ -1,0 +1,47 @@
+{
+  "id": "tornado",
+  "type": "tornado",
+  "title": "NPV is most sensitive to price and volume",
+  "subtitle": "",
+  "unit": "NPV $M",
+  "source": "Illustrative data",
+  "data": {
+    "base": 120,
+    "items": [
+      {
+        "label": "Price ±10%",
+        "low": 78,
+        "high": 162
+      },
+      {
+        "label": "Volume ±15%",
+        "low": 92,
+        "high": 150
+      },
+      {
+        "label": "Input cost ±10%",
+        "low": 135,
+        "high": 104
+      },
+      {
+        "label": "WACC ±1pp",
+        "low": 138,
+        "high": 105
+      },
+      {
+        "label": "Capex ±20%",
+        "low": 131,
+        "high": 110
+      }
+    ]
+  },
+  "callouts": [
+    {
+      "text": "Pricing power is the key value lever",
+      "anchor": "162",
+      "dx": 1.2,
+      "dy": 2.7
+    }
+  ],
+  "footnote": "Figures rounded; illustrative example"
+}

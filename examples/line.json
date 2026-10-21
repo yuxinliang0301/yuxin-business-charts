@@ -1,0 +1,71 @@
+{
+  "id": "line",
+  "type": "line",
+  "title": "Online traffic overtook stores in May",
+  "subtitle": "",
+  "unit": "k visits",
+  "source": "Illustrative data",
+  "data": {
+    "categories": [
+      "Jan",
+      "Feb",
+      "Mar",
+      "Apr",
+      "May",
+      "Jun",
+      "Jul",
+      "Aug"
+    ],
+    "series": [
+      {
+        "name": "Online",
+        "values": [
+          20,
+          24,
+          27,
+          31,
+          38,
+          42,
+          45,
+          49
+        ]
+      },
+      {
+        "name": "Store",
+        "values": [
+          40,
+          39,
+          38,
+          37,
+          36,
+          35,
+          34,
+          33
+        ]
+      }
+    ]
+  },
+  "highlight": [
+    {
+      "at": [
+        0.507,
+        0.27
+      ],
+      "shape": "circle",
+      "w": 0.6,
+      "h": 0.6
+    }
+  ],
+  "callouts": [
+    {
+      "text": "Crossover in May",
+      "at": [
+        0.507,
+        0.27
+      ],
+      "dx": 1.2,
+      "dy": 1.6
+    }
+  ],
+  "footnote": "Figures rounded; illustrative example"
+}

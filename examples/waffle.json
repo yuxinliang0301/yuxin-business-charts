@@ -1,0 +1,25 @@
+{
+  "id": "waffle",
+  "type": "waffle",
+  "title": "Almost two-thirds of spend is addressable",
+  "subtitle": "",
+  "unit": "% of spend",
+  "source": "Illustrative data",
+  "data": {
+    "items": [
+      {
+        "label": "Addressable",
+        "value": 64
+      },
+      {
+        "label": "Partly addressable",
+        "value": 21
+      },
+      {
+        "label": "Locked-in contracts",
+        "value": 15
+      }
+    ]
+  },
+  "footnote": "Figures rounded; illustrative example"
+}

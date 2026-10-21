@@ -1,0 +1,45 @@
+{
+  "id": "waterfall_negative_end",
+  "type": "waterfall",
+  "title": "Cash bridge: free cash flow turns negative",
+  "subtitle": "",
+  "unit": "$M",
+  "source": "Illustrative data",
+  "data": {
+    "items": [
+      {
+        "label": "EBITDA",
+        "value": 30,
+        "kind": "start"
+      },
+      {
+        "label": "Capex",
+        "value": -22
+      },
+      {
+        "label": "Working cap.",
+        "value": -9
+      },
+      {
+        "label": "Tax",
+        "value": -5
+      },
+      {
+        "label": "FCF",
+        "value": -6,
+        "kind": "total"
+      }
+    ],
+    "color_by_sign": true,
+    "signed_labels": true
+  },
+  "callouts": [
+    {
+      "text": "Capex peak: new plant",
+      "category": "Capex",
+      "dx": 3.0,
+      "dy": -0.6
+    }
+  ],
+  "footnote": "Figures rounded; illustrative example"
+}

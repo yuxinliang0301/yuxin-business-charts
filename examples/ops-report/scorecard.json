@@ -1,0 +1,325 @@
+{
+ "id": "qa_scorecard",
+ "type": "facet",
+ "title": [
+  {
+   "text": "5 of 6 groups: attainment (actual / plan) below 60% benchmark — focus = red bars"
+  }
+ ],
+ "title_bold": true,
+ "title_size": 16,
+ "source": "Illustrative / 示意数据",
+ "note": [
+  {
+   "text": "Attainment = actual / plan. Red/green = this period vs 60% benchmark; Gray = prior period"
+  }
+ ],
+ "cols": [
+  "Item A",
+  "Item B",
+  "Item C",
+  "Item D",
+  "Item E",
+  "Item F",
+  "Item G",
+  "Item H"
+ ],
+ "col_header_style": "plain",
+ "col_header_align": "l",
+ "col_header_size": 10,
+ "row_header_style": "right",
+ "row_header_w": 1.0,
+ "legend_w": 0.25,
+ "separators": null,
+ "bottom_h": 0.25,
+ "rows": [
+  {
+   "label": "All groups",
+   "chart": {
+    "kind": "bars_pair",
+    "rule": {
+     "threshold": 60,
+     "ge": "green",
+     "lt": "red",
+     "compare": "gray"
+    },
+    "x_max": 75,
+    "font_size": 6.5,
+    "bar_h": 0.26
+   }
+  },
+  {
+   "label": "Team A",
+   "chart": {
+    "kind": "bars_pair",
+    "rule": {
+     "threshold": 60,
+     "ge": "green",
+     "lt": "red",
+     "compare": "gray"
+    },
+    "x_max": 75,
+    "font_size": 6.5,
+    "bar_h": 0.26
+   }
+  },
+  {
+   "label": "Team B",
+   "chart": {
+    "kind": "bars_pair",
+    "rule": {
+     "threshold": 60,
+     "ge": "green",
+     "lt": "red",
+     "compare": "gray"
+    },
+    "x_max": 75,
+    "font_size": 6.5,
+    "bar_h": 0.26
+   }
+  },
+  {
+   "label": "Team C",
+   "chart": {
+    "kind": "bars_pair",
+    "rule": {
+     "threshold": 60,
+     "ge": "green",
+     "lt": "red",
+     "compare": "gray"
+    },
+    "x_max": 75,
+    "font_size": 6.5,
+    "bar_h": 0.26
+   }
+  },
+  {
+   "label": "Team D",
+   "chart": {
+    "kind": "bars_pair",
+    "rule": {
+     "threshold": 60,
+     "ge": "green",
+     "lt": "red",
+     "compare": "gray"
+    },
+    "x_max": 75,
+    "font_size": 6.5,
+    "bar_h": 0.26
+   }
+  },
+  {
+   "label": "Team E",
+   "chart": {
+    "kind": "bars_pair",
+    "rule": {
+     "threshold": 60,
+     "ge": "green",
+     "lt": "red",
+     "compare": "gray"
+    },
+    "x_max": 75,
+    "font_size": 6.5,
+    "bar_h": 0.26
+   }
+  }
+ ],
+ "cells": [
+  [
+   {
+    "value": 40.7,
+    "compare": 49.9
+   },
+   {
+    "value": 54.5,
+    "compare": 46.9
+   },
+   {
+    "value": 42.3,
+    "compare": 50.9
+   },
+   {
+    "value": 32.8,
+    "compare": 48.4
+   },
+   {
+    "value": 45.9,
+    "compare": 57.4
+   },
+   {
+    "value": 30.2,
+    "compare": 41.7
+   },
+   {
+    "value": 30.1,
+    "compare": 57.9
+   },
+   {
+    "value": 47.7,
+    "compare": 33.4
+   }
+  ],
+  [
+   {
+    "value": 56.2,
+    "compare": 62.9
+   },
+   {
+    "value": 46.6,
+    "compare": 51.7
+   },
+   {
+    "value": 32.0,
+    "compare": 32.5
+   },
+   {
+    "value": 42.9,
+    "compare": 33.9
+   },
+   {
+    "value": 33.0,
+    "compare": 39.8
+   },
+   {
+    "value": 28.4,
+    "compare": 46.8
+   },
+   {
+    "value": 40.3,
+    "compare": 59.0
+   },
+   null
+  ],
+  [
+   {
+    "value": 42.6,
+    "compare": 52.5
+   },
+   {
+    "value": 42.1,
+    "compare": 53.2
+   },
+   {
+    "value": 40.8,
+    "compare": 40.9
+   },
+   {
+    "value": 86.0,
+    "compare": 63.8
+   },
+   {
+    "value": 48.1,
+    "compare": 42.1
+   },
+   {
+    "value": 34.1,
+    "compare": 41.2
+   },
+   {
+    "value": 210.4,
+    "compare": 56.5
+   },
+   null
+  ],
+  [
+   {
+    "value": 39.1,
+    "compare": 59.1
+   },
+   {
+    "value": 38.8,
+    "compare": 62.7
+   },
+   {
+    "value": 52.2,
+    "compare": 32.0
+   },
+   {
+    "value": 33.6,
+    "compare": 61.2
+   },
+   {
+    "value": 41.2,
+    "compare": 63.4
+   },
+   {
+    "value": 39.1,
+    "compare": 34.4
+   },
+   {
+    "value": 228.7,
+    "compare": 56.9
+   },
+   null
+  ],
+  [
+   {
+    "value": 35.3,
+    "compare": 34.8
+   },
+   {
+    "value": 37.1,
+    "compare": 62.8
+   },
+   {
+    "value": 49.7,
+    "compare": 35.8
+   },
+   {
+    "value": 34.7,
+    "compare": 35.2
+   },
+   {
+    "value": 29.2,
+    "compare": 57.5
+   },
+   {
+    "value": 32.7,
+    "compare": 49.9
+   },
+   {
+    "value": 40.5,
+    "compare": 38.1
+   },
+   null
+  ],
+  [
+   {
+    "value": 48.8,
+    "compare": 36.2
+   },
+   {
+    "value": 46.3,
+    "compare": 35.8
+   },
+   {
+    "value": 39.8,
+    "compare": 38.9
+   },
+   {
+    "value": 35.3,
+    "compare": 63.1
+   },
+   {
+    "value": 50.9,
+    "compare": 41.7
+   },
+   {
+    "value": 53.3,
+    "compare": 38.8
+   },
+   {
+    "value": 39.0,
+    "compare": 59.4
+   },
+   null
+  ]
+ ],
+ "footnotes": [
+  [
+   {
+    "text": "Attainment = actual / plan; benchmark = 60% (illustrative)"
+   }
+  ]
+ ]
+}

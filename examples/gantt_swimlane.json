@@ -1,0 +1,65 @@
+{
+  "id": "gantt_swimlane",
+  "type": "gantt_swimlane",
+  "title": "Three workstreams converge on the October launch",
+  "subtitle": "",
+  "unit": "2026",
+  "source": "Illustrative data",
+  "data": {
+    "start": "2026-06-01",
+    "end": "2026-10-31",
+    "tasks": [
+      {
+        "name": "Commercial",
+        "header": true
+      },
+      {
+        "name": "Pricing redesign",
+        "start": "2026-06-01",
+        "end": "2026-07-31",
+        "indent": true
+      },
+      {
+        "name": "Sales training",
+        "start": "2026-08-03",
+        "end": "2026-09-25",
+        "indent": true
+      },
+      {
+        "name": "Operations",
+        "header": true
+      },
+      {
+        "name": "Supplier onboarding",
+        "start": "2026-06-15",
+        "end": "2026-08-28",
+        "indent": true,
+        "color": 1
+      },
+      {
+        "name": "Warehouse set-up",
+        "start": "2026-07-20",
+        "end": "2026-09-30",
+        "indent": true,
+        "color": 1
+      },
+      {
+        "name": "IT",
+        "header": true
+      },
+      {
+        "name": "ERP changes",
+        "start": "2026-06-08",
+        "end": "2026-09-11",
+        "indent": true,
+        "color": 2
+      },
+      {
+        "name": "Launch",
+        "milestone": "2026-10-05",
+        "milestone_label": "Launch"
+      }
+    ]
+  },
+  "footnote": "Figures rounded; illustrative example"
+}

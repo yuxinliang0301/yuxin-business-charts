@@ -1,0 +1,368 @@
+[
+  {
+    "category": "柱形图",
+    "id": "column",
+    "type": "column",
+    "use": "单一指标随时间/类别变化"
+  },
+  {
+    "category": "柱形图",
+    "id": "stacked",
+    "type": "stacked",
+    "use": "总量+构成随时间变化（带总计和 CAGR）"
+  },
+  {
+    "category": "柱形图",
+    "id": "percent",
+    "type": "percent",
+    "use": "构成占比变化（100% 堆叠）"
+  },
+  {
+    "category": "柱形图",
+    "id": "clustered",
+    "type": "clustered",
+    "use": "少量系列跨类别直接比较"
+  },
+  {
+    "category": "柱形图",
+    "id": "column_axis_break",
+    "type": "column",
+    "use": "有个别极大值时用轴破断"
+  },
+  {
+    "category": "柱形图",
+    "id": "stacked_diff",
+    "type": "stacked",
+    "use": "突出两点之间的差值（差值箭头）"
+  },
+  {
+    "category": "柱形图",
+    "id": "stacked_highlight",
+    "type": "stacked",
+    "use": "强调某一列 + callout 说明"
+  },
+  {
+    "category": "柱形图",
+    "id": "stacked_clustered",
+    "type": "stacked_clustered",
+    "use": "计划 vs 实际等「每类多根堆叠柱」"
+  },
+  {
+    "category": "柱形图",
+    "id": "column_error",
+    "type": "column_error",
+    "use": "带置信区间/波动范围的均值比较（误差线）"
+  },
+  {
+    "category": "柱形图",
+    "id": "column_grouped",
+    "type": "column_grouped",
+    "use": "两级类别（年-季度）分组 + 组间间隔"
+  },
+  {
+    "category": "柱形图",
+    "id": "column_target",
+    "type": "column_target",
+    "use": "实际 vs 目标（目标标记线 + 达成率）"
+  },
+  {
+    "category": "柱形图",
+    "id": "column_xbreak",
+    "type": "column_xbreak",
+    "use": "类别轴不连续（跳过年份）时用横轴破断"
+  },
+  {
+    "category": "柱形图",
+    "id": "stacked_value_line",
+    "type": "stacked",
+    "use": "数值线/平均线（value line）"
+  },
+  {
+    "category": "瀑布图",
+    "id": "waterfall",
+    "type": "waterfall",
+    "use": "起点→驱动因素→终点的桥（收入桥、利润桥）"
+  },
+  {
+    "category": "瀑布图",
+    "id": "waterfall_signed",
+    "type": "waterfall",
+    "use": "需要一眼看出正负方向时"
+  },
+  {
+    "category": "瀑布图",
+    "id": "waterfall_h",
+    "type": "waterfall_h",
+    "use": "总额向下分解（build-down，条目名较长时用水平版）"
+  },
+  {
+    "category": "瀑布图",
+    "id": "waterfall_stacked",
+    "type": "waterfall_stacked",
+    "use": "每个驱动再按产品/区域拆分（堆叠瀑布）"
+  },
+  {
+    "category": "瀑布图",
+    "id": "waterfall_subtotal",
+    "type": "waterfall_subtotal",
+    "use": "多级小计的损益桥（subtotal 自动计算）"
+  },
+  {
+    "category": "瀑布图",
+    "id": "waterfall_percent",
+    "type": "waterfall_percent",
+    "use": "百分比/利润率桥（pp 变化）"
+  },
+  {
+    "category": "瀑布图",
+    "id": "waterfall_negative_end",
+    "type": "waterfall",
+    "use": "终点为负的桥（零线以下）"
+  },
+  {
+    "category": "Mekko 图",
+    "id": "mekko_percent",
+    "type": "mekko_percent",
+    "use": "市场规模（宽度）× 份额（高度），看结构"
+  },
+  {
+    "category": "Mekko 图",
+    "id": "mekko_unit",
+    "type": "mekko_unit",
+    "use": "宽度和高度都是绝对值（单位 Mekko）"
+  },
+  {
+    "category": "Mekko 图",
+    "id": "variwide",
+    "type": "variwide",
+    "use": "宽=规模、高=指标的变宽柱（单系列 Mekko）"
+  },
+  {
+    "category": "Mekko 图",
+    "id": "proportional_area",
+    "type": "proportional_area",
+    "use": "量级差距很大时用面积比例"
+  },
+  {
+    "category": "条形图",
+    "id": "bar",
+    "type": "bar",
+    "use": "类别名较长/类别较多时的排名"
+  },
+  {
+    "category": "条形图",
+    "id": "bar_sorted",
+    "type": "bar_sorted",
+    "use": "自动降序 + 高亮重点项"
+  },
+  {
+    "category": "条形图",
+    "id": "bar_stacked",
+    "type": "bar_stacked",
+    "use": "水平堆叠，类别名长时用"
+  },
+  {
+    "category": "条形图",
+    "id": "bar_yoy",
+    "type": "bar_yoy",
+    "use": "两年逐项对比 + 变化率列"
+  },
+  {
+    "category": "条形图",
+    "id": "bar_diverging",
+    "type": "bar_diverging",
+    "use": "有正有负的变化（正负条形）"
+  },
+  {
+    "category": "条形图",
+    "id": "bar_percent",
+    "type": "bar_percent",
+    "use": "调研量表（李克特）/ 100% 构成条形"
+  },
+  {
+    "category": "对比图",
+    "id": "butterfly",
+    "type": "butterfly",
+    "use": "两组人群/两个时期左右对照（蝴蝶图）"
+  },
+  {
+    "category": "对比图",
+    "id": "dumbbell",
+    "type": "dumbbell",
+    "use": "两个时点的前后对比（哑铃图）"
+  },
+  {
+    "category": "对比图",
+    "id": "football",
+    "type": "football",
+    "use": "估值区间（足球场图）"
+  },
+  {
+    "category": "折线/面积图",
+    "id": "line",
+    "type": "line",
+    "use": "连续时间趋势"
+  },
+  {
+    "category": "折线/面积图",
+    "id": "area",
+    "type": "area",
+    "use": "总量趋势 + 构成"
+  },
+  {
+    "category": "折线/面积图",
+    "id": "area_percent",
+    "type": "area_percent",
+    "use": "构成占比的连续变化"
+  },
+  {
+    "category": "折线/面积图",
+    "id": "combo",
+    "type": "combo",
+    "use": "量 + 率（双轴组合）"
+  },
+  {
+    "category": "折线/面积图",
+    "id": "line_target",
+    "type": "line_target",
+    "use": "趋势 + 目标线 / 目标区间"
+  },
+  {
+    "category": "折线/面积图",
+    "id": "slope",
+    "type": "slope",
+    "use": "两个时点的排名/份额变化（斜率图）"
+  },
+  {
+    "category": "折线/面积图",
+    "id": "small_multiples",
+    "type": "small_multiples",
+    "use": "多个对象同刻度并排比较（小倍数）"
+  },
+  {
+    "category": "散点/气泡图",
+    "id": "scatter",
+    "type": "scatter",
+    "use": "两个指标的相关/四象限"
+  },
+  {
+    "category": "散点/气泡图",
+    "id": "bubble",
+    "type": "bubble",
+    "use": "三个维度（x、y、规模）的组合定位"
+  },
+  {
+    "category": "饼/环图",
+    "id": "pie",
+    "type": "pie",
+    "use": "少数（≤5）部分占整体"
+  },
+  {
+    "category": "饼/环图",
+    "id": "doughnut",
+    "type": "doughnut",
+    "use": "占比 + 中心放总量"
+  },
+  {
+    "category": "甘特/时间线",
+    "id": "gantt",
+    "type": "gantt",
+    "use": "项目计划、里程碑、负责人"
+  },
+  {
+    "category": "甘特/时间线",
+    "id": "timeline",
+    "type": "timeline",
+    "use": "高层路线图/阶段 + 里程碑"
+  },
+  {
+    "category": "甘特/时间线",
+    "id": "gantt_progress",
+    "type": "gantt_progress",
+    "use": "甘特 + 完成百分比（项目状态汇报）"
+  },
+  {
+    "category": "甘特/时间线",
+    "id": "gantt_swimlane",
+    "type": "gantt_swimlane",
+    "use": "按工作流分组（泳道）的甘特"
+  },
+  {
+    "category": "表格",
+    "id": "table_harvey",
+    "type": "table_harvey",
+    "use": "多维度定性评估（Harvey ball / 勾叉）"
+  },
+  {
+    "category": "咨询常用图",
+    "id": "funnel",
+    "type": "funnel",
+    "use": "转化漏斗（逐级转化率）"
+  },
+  {
+    "category": "咨询常用图",
+    "id": "heatmap",
+    "type": "heatmap",
+    "use": "两维交叉的强弱分布（热力矩阵）"
+  },
+  {
+    "category": "咨询常用图",
+    "id": "matrix_2x2",
+    "type": "matrix_2x2",
+    "use": "战略矩阵 / 二乘二优先级"
+  },
+  {
+    "category": "咨询常用图",
+    "id": "pareto",
+    "type": "pareto",
+    "use": "找出 80/20 主因（帕累托）"
+  },
+  {
+    "category": "咨询常用图",
+    "id": "tornado",
+    "type": "tornado",
+    "use": "敏感性分析（龙卷风图）"
+  },
+  {
+    "category": "咨询常用图",
+    "id": "tree",
+    "type": "tree",
+    "use": "指标拆解树 / 驱动树"
+  },
+  {
+    "category": "咨询常用图",
+    "id": "kpi_cards",
+    "type": "kpi_cards",
+    "use": "KPI 仪表板卡片"
+  },
+  {
+    "category": "咨询常用图",
+    "id": "bullet",
+    "type": "bullet",
+    "use": "实际 vs 目标 vs 区间（子弹图）"
+  },
+  {
+    "category": "咨询常用图",
+    "id": "progress_bars",
+    "type": "progress_bars",
+    "use": "举措/目标完成进度（对照时间进度）"
+  },
+  {
+    "category": "咨询常用图",
+    "id": "radar",
+    "type": "radar",
+    "use": "多维能力画像对比（雷达）"
+  },
+  {
+    "category": "咨询常用图",
+    "id": "tam_sam_som",
+    "type": "tam_sam_som",
+    "use": "潜在市场规模分层（TAM/SAM/SOM）"
+  },
+  {
+    "category": "咨询常用图",
+    "id": "waffle",
+    "type": "waffle",
+    "use": "直观的百分比（华夫图）"
+  }
+]

@@ -1,0 +1,43 @@
+{
+  "id": "column_grouped",
+  "type": "column_grouped",
+  "title": "Q4 is the strongest quarter in both years",
+  "subtitle": "",
+  "unit": "$M",
+  "source": "Illustrative data",
+  "data": {
+    "groups": [
+      {
+        "name": "2024",
+        "categories": [
+          "Q1",
+          "Q2",
+          "Q3",
+          "Q4"
+        ],
+        "values": [
+          22,
+          25,
+          24,
+          31
+        ]
+      },
+      {
+        "name": "2025",
+        "categories": [
+          "Q1",
+          "Q2",
+          "Q3",
+          "Q4"
+        ],
+        "values": [
+          26,
+          29,
+          28,
+          37
+        ]
+      }
+    ]
+  },
+  "footnote": "Figures rounded; illustrative example"
+}

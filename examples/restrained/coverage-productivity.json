@@ -1,0 +1,116 @@
+{
+  "type": "dashboard",
+  "theme": "restrained_navy",
+  "font_family": "Kaiti SC",
+  "exhibit": true,
+  "title_size": 24,
+  "source": "示意数据；结构参考 Bainflix 案例，非原案例经营结论",
+  "footnote_size": 9,
+  "id": "coverage-productivity",
+  "title": "潜力市场单店产出更高，但覆盖率仅42%",
+  "panels": [
+    {
+      "title": "01 / 目标门店覆盖率（%）",
+      "title_size": 15,
+      "box": [
+        0,
+        0,
+        0.47,
+        1
+      ],
+      "insight": "潜力市场覆盖率最低；\n仍有58%的目标门店尚未覆盖。",
+      "insight_size": 13,
+      "insight_height": 0.85,
+      "chart": {
+        "kind": "column_stack",
+        "font_size": 13,
+        "x_label_size": 12,
+        "legend_size": 12,
+        "totals": true,
+        "segment_labels": false,
+        "legend_right": false,
+        "pad": {
+          "l": 0.1,
+          "r": 0.12,
+          "t": 0.35,
+          "b": 0.45
+        },
+        "data": {
+          "categories": [
+            "成熟市场",
+            "扩张市场",
+            "潜力市场"
+          ],
+          "series": [
+            {
+              "name": "覆盖率",
+              "values": [
+                86,
+                68,
+                42
+              ],
+              "point_colors": [
+                "#C9D0D5",
+                "#94A3AE",
+                "#24465C"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "title": "02 / 单店月均销量（箱/店）",
+      "title_size": 15,
+      "box": [
+        0.53,
+        0,
+        0.47,
+        1
+      ],
+      "insight": "现有门店产出较高，可优先做扩点试验；\n新增门店能否复制表现仍待验证。",
+      "insight_size": 13,
+      "insight_height": 0.85,
+      "chart": {
+        "kind": "column_stack",
+        "font_size": 13,
+        "x_label_size": 12,
+        "legend_size": 12,
+        "totals": true,
+        "segment_labels": false,
+        "legend_right": false,
+        "pad": {
+          "l": 0.1,
+          "r": 0.12,
+          "t": 0.35,
+          "b": 0.45
+        },
+        "data": {
+          "categories": [
+            "成熟市场",
+            "扩张市场",
+            "潜力市场"
+          ],
+          "series": [
+            {
+              "name": "单店销量",
+              "values": [
+                90,
+                105,
+                130
+              ],
+              "point_colors": [
+                "#C9D0D5",
+                "#94A3AE",
+                "#24465C"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "footnotes": [
+    "示意期间：2026年9月；覆盖率分母为各市场目标门店；单店销量未剔除选店效应。"
+  ]
+}

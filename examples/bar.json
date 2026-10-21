@@ -1,0 +1,48 @@
+{
+  "id": "bar",
+  "type": "bar",
+  "title": "Keyboards are the best-selling accessory",
+  "subtitle": "",
+  "unit": "k units",
+  "source": "Illustrative data",
+  "data": {
+    "categories": [
+      "Keyboards",
+      "Headphones",
+      "Mice",
+      "Webcams",
+      "Monitors",
+      "Docks"
+    ],
+    "series": [
+      {
+        "name": "Units",
+        "values": [
+          515,
+          420,
+          310,
+          280,
+          190,
+          120
+        ]
+      }
+    ]
+  },
+  "highlight": [
+    {
+      "anchor": "515",
+      "shape": "circle",
+      "w": 0.8,
+      "h": 0.45
+    }
+  ],
+  "callouts": [
+    {
+      "text": "Docks: review range",
+      "anchor": "120",
+      "dx": 2.6,
+      "dy": -0.5
+    }
+  ],
+  "footnote": "Figures rounded; illustrative example"
+}

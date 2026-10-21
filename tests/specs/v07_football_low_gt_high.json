@@ -1,0 +1,27 @@
+{
+ "type": "football",
+ "title": "Valuation",
+ "source": "Bank",
+ "data": {
+  "categories": [
+   "DCF",
+   "Comps"
+  ],
+  "series": [
+   {
+    "name": "Low",
+    "values": [
+     30,
+     20
+    ]
+   },
+   {
+    "name": "High",
+    "values": [
+     22,
+     26
+    ]
+   }
+  ]
+ }
+}

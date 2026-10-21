@@ -1,0 +1,55 @@
+{
+  "id": "mekko_percent",
+  "type": "mekko_percent",
+  "title": "Brand A leads in the largest market, China",
+  "subtitle": "",
+  "unit": "$B / %",
+  "source": "Illustrative data",
+  "data": {
+    "categories": [
+      "China",
+      "US",
+      "EU"
+    ],
+    "widths": [
+      50,
+      30,
+      20
+    ],
+    "series": [
+      {
+        "name": "Brand A",
+        "values": [
+          40,
+          25,
+          30
+        ]
+      },
+      {
+        "name": "Brand B",
+        "values": [
+          30,
+          35,
+          20
+        ]
+      },
+      {
+        "name": "Brand C",
+        "values": [
+          20,
+          25,
+          30
+        ]
+      },
+      {
+        "name": "Others",
+        "values": [
+          10,
+          15,
+          20
+        ]
+      }
+    ]
+  },
+  "footnote": "Figures rounded; illustrative example"
+}

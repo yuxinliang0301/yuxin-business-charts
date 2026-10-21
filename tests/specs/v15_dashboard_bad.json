@@ -1,0 +1,1 @@
+{"type":"dashboard","title":"x","panels":[{"box":[0,0,0.6,1],"chart":{"kind":"lines","data":{"categories":["a","b","c"],"series":[{"name":"S","values":[1,2]}]},"segments":[{"from":0,"to":5,"label":"By Q"}],"annotations":[{"type":"circle","series":"T","points":[1]}]}},{"box":[0.5,0,0.6,1],"chart":{"kind":"pie"}}]}

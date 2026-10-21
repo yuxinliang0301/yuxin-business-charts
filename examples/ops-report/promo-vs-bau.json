@@ -1,0 +1,56 @@
+{
+ "id": "qa_promo_bau",
+ "type": "clustered",
+ "title": "Metric A Peak/Base lift holds at 1.14×; Metric B lift cools",
+ "subtitle": "Illustrative peak vs base periods",
+ "unit": "Metric A (units)",
+ "source": "Illustrative / 示意数据",
+ "footnote": "Base = normal-period avg; Peak = peak-period avg. Baseline = Base within year. Illustrative / 示意数据",
+ "data": {
+  "categories": [
+   "Year 1 Base",
+   "Year 1 Peak",
+   "Year 2 Base",
+   "Year 2 Peak"
+  ],
+  "series": [
+   {
+    "name": "Metric A",
+    "values": [
+     2.4,
+     2.7,
+     5.0,
+     5.7
+    ]
+   },
+   {
+    "name": "Metric B",
+    "values": [
+     15.0,
+     17.5,
+     36.0,
+     39.3
+    ]
+   }
+  ]
+ },
+ "highlight": [
+  {
+   "category": "Year 2 Peak"
+  }
+ ],
+ "callouts": [
+  {
+   "text": "Peak/Base 1.14×",
+   "anchor": "5.7",
+   "dx": -2.0,
+   "dy": -0.25
+  },
+  {
+   "text": "Metric B lift 1.09× vs 1.17× prior",
+   "anchor": "39.3",
+   "dx": 0.15,
+   "dy": 0.7
+  }
+ ]
+}

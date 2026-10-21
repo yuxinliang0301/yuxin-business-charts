@@ -1,0 +1,70 @@
+{
+ "id": "qa_ctg_waterfall",
+ "type": "waterfall",
+ "title": "W2 YoY Δ +1.4 vs W1: Item 5 & Item 1 explain most of the lift",
+ "subtitle": "Illustrative contribution-to-growth bridge",
+ "unit": "Metric A YoY Δ (units)",
+ "source": "Illustrative / 示意数据",
+ "footnote": "CTG = contribution to growth (YoY change). Illustrative / 示意数据",
+ "data": {
+  "items": [
+   {
+    "label": "W1 YoY Δ",
+    "value": 21.8,
+    "kind": "start"
+   },
+   {
+    "label": "Item 1",
+    "value": 0.8
+   },
+   {
+    "label": "Item 2",
+    "value": 0.4
+   },
+   {
+    "label": "Item 3",
+    "value": -0.2
+   },
+   {
+    "label": "Item 4",
+    "value": 0.2
+   },
+   {
+    "label": "Item 5",
+    "value": 1.0
+   },
+   {
+    "label": "Other",
+    "value": -0.8
+   },
+   {
+    "label": "W2 YoY Δ",
+    "value": 23.2,
+    "kind": "total"
+   }
+  ]
+ },
+ "decorations": [
+  {
+   "type": "total_diff",
+   "from": 0,
+   "to": 7
+  }
+ ],
+ "highlight": [
+  {
+   "category": "Item 5"
+  },
+  {
+   "category": "Item 1"
+  }
+ ],
+ "callouts": [
+  {
+   "text": "Main driver: +1.0 from Item 5",
+   "category": "Item 5",
+   "dx": 0.1,
+   "dy": 1.8
+  }
+ ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "percent",
+  "type": "percent",
+  "title": "Seg C share rose from 13% to 20%",
+  "subtitle": "",
+  "unit": "% of revenue",
+  "source": "Illustrative data",
+  "data": {
+    "categories": [
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "series": [
+      {
+        "name": "Seg C",
+        "values": [
+          10,
+          12,
+          15,
+          19,
+          25
+        ]
+      },
+      {
+        "name": "Seg B",
+        "values": [
+          25,
+          28,
+          33,
+          38,
+          43
+        ]
+      },
+      {
+        "name": "Seg A",
+        "values": [
+          40,
+          44,
+          48,
+          52,
+          57
+        ]
+      }
+    ]
+  },
+  "footnote": "Figures rounded; illustrative example"
+}

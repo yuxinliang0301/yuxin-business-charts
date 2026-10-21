@@ -1,0 +1,53 @@
+{
+  "id": "football",
+  "type": "football",
+  "title": "Valuation range: DCF supports the offer price",
+  "subtitle": "",
+  "unit": "$ per share",
+  "source": "Illustrative data",
+  "data": {
+    "categories": [
+      "52-week range",
+      "Trading comps",
+      "Precedent deals",
+      "DCF",
+      "LBO"
+    ],
+    "series": [
+      {
+        "name": "Low",
+        "values": [
+          18,
+          20,
+          23,
+          22,
+          19
+        ]
+      },
+      {
+        "name": "High",
+        "values": [
+          27,
+          26,
+          31,
+          30,
+          25
+        ]
+      }
+    ],
+    "min": 15,
+    "marker": {
+      "value": 25,
+      "label": "Offer $25"
+    }
+  },
+  "callouts": [
+    {
+      "text": "Offer inside DCF range",
+      "anchor": "Offer $25",
+      "dx": 3.0,
+      "dy": 0.05
+    }
+  ],
+  "footnote": "Figures rounded; illustrative example"
+}

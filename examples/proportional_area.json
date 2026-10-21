@@ -1,0 +1,29 @@
+{
+  "id": "proportional_area",
+  "type": "proportional_area",
+  "title": "Global market dwarfs our core region",
+  "subtitle": "",
+  "unit": "$B",
+  "source": "Illustrative data",
+  "data": {
+    "items": [
+      {
+        "label": "Global",
+        "value": 400
+      },
+      {
+        "label": "Asia",
+        "value": 160
+      },
+      {
+        "label": "China",
+        "value": 90
+      },
+      {
+        "label": "Our sales",
+        "value": 12
+      }
+    ]
+  },
+  "footnote": "Figures rounded; illustrative example"
+}

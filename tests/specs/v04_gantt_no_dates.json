@@ -1,0 +1,24 @@
+{
+ "type": "gantt",
+ "title": "Deal timeline",
+ "source": "PMO",
+ "data": {
+  "start": "2026-05-04",
+  "end": "2026-08-01",
+  "tasks": [
+   {
+    "name": "Send teaser",
+    "start": "2026-05-04",
+    "end": "2026-05-15"
+   },
+   {
+    "name": "Due diligence"
+   },
+   {
+    "name": "Signing",
+    "start": "July",
+    "end": "2026-07-31"
+   }
+  ]
+ }
+}

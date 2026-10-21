@@ -1,0 +1,848 @@
+{
+ "id": "qa_volume_speed_eff",
+ "type": "dashboard",
+ "palette": "ops_bright",
+ "series_colors": {
+  "Team A": "#0070C0",
+  "Team B": "#EA6A06",
+  "Team C": "#4EA72E",
+  "Others": "#BFBFBF",
+  "Overall": "#000000"
+ },
+ "title_tag": {
+  "text": "Region X",
+  "fill": "yellow"
+ },
+ "title": [
+  {
+   "text": "Volume growth slows while Ratio R rises: efficiency improves under a softer top line"
+  }
+ ],
+ "title_bold": true,
+ "title_size": 14,
+ "source": "Illustrative / 示意数据",
+ "footnotes": [
+  [
+   {
+    "text": "YoY = same period prior year; Ratio R = Metric A / Metric B. Red circle = Region A YoY soft patch (focus)."
+   }
+  ]
+ ],
+ "note": [
+  {
+   "text": "≤2 focus marks: red = YoY soft (Region A); green = Ratio R rebound (Region A)"
+  }
+ ],
+ "panels": [
+  {
+   "box": [
+    0.12,
+    0.0,
+    0.28,
+    0.32
+   ],
+   "title": "Region A | Metric A — volume",
+   "title_style": "red_underline",
+   "chart": {
+    "kind": "area_stack",
+    "data": {
+     "categories": [
+      "W1",
+      "W2",
+      "W3",
+      "W4",
+      "W5",
+      "W6",
+      "W7",
+      "W8"
+     ],
+     "series": [
+      {
+       "name": "Team A",
+       "values": [
+        6.0,
+        6.3,
+        6.4,
+        6.8,
+        6.9,
+        7.2,
+        7.4,
+        7.5
+       ]
+      },
+      {
+       "name": "Team B",
+       "values": [
+        4.2,
+        4.3,
+        4.5,
+        4.5,
+        4.7,
+        4.8,
+        4.9,
+        5.1
+       ]
+      },
+      {
+       "name": "Team C",
+       "values": [
+        0.6,
+        0.6,
+        0.6,
+        0.8,
+        0.8,
+        0.8,
+        0.8,
+        0.8
+       ]
+      },
+      {
+       "name": "Others",
+       "values": [
+        8.2,
+        8.4,
+        8.6,
+        8.9,
+        9.0,
+        9.1,
+        9.3,
+        9.4
+       ]
+      }
+     ]
+    },
+    "font_size": 5.5,
+    "x_labels": false,
+    "show_share": true,
+    "totals": true,
+    "min_label_h": 0.12,
+    "decimals": 1
+   }
+  },
+  {
+   "box": [
+    0.41,
+    0.0,
+    0.28,
+    0.32
+   ],
+   "title": "Region B",
+   "title_style": "red_underline",
+   "chart": {
+    "kind": "area_stack",
+    "data": {
+     "categories": [
+      "W1",
+      "W2",
+      "W3",
+      "W4",
+      "W5",
+      "W6",
+      "W7",
+      "W8"
+     ],
+     "series": [
+      {
+       "name": "Team A",
+       "values": [
+        5.1,
+        5.2,
+        5.6,
+        5.7,
+        6.0,
+        6.3,
+        6.4,
+        6.8
+       ]
+      },
+      {
+       "name": "Team B",
+       "values": [
+        3.6,
+        3.8,
+        3.8,
+        3.9,
+        4.1,
+        4.2,
+        4.3,
+        4.3
+       ]
+      },
+      {
+       "name": "Team C",
+       "values": [
+        0.4,
+        0.6,
+        0.6,
+        0.6,
+        0.6,
+        0.6,
+        0.8,
+        0.8
+       ]
+      },
+      {
+       "name": "Others",
+       "values": [
+        7.1,
+        7.2,
+        7.4,
+        7.5,
+        7.8,
+        7.9,
+        8.1,
+        8.2
+       ]
+      }
+     ]
+    },
+    "font_size": 5.5,
+    "x_labels": false,
+    "show_share": true,
+    "totals": true,
+    "min_label_h": 0.12,
+    "decimals": 1
+   }
+  },
+  {
+   "box": [
+    0.7,
+    0.0,
+    0.28,
+    0.32
+   ],
+   "title": "Region C",
+   "title_style": "red_underline",
+   "chart": {
+    "kind": "area_stack",
+    "data": {
+     "categories": [
+      "W1",
+      "W2",
+      "W3",
+      "W4",
+      "W5",
+      "W6",
+      "W7",
+      "W8"
+     ],
+     "series": [
+      {
+       "name": "Team A",
+       "values": [
+        3.3,
+        3.6,
+        3.8,
+        4.1,
+        4.2,
+        4.5,
+        4.7,
+        4.8
+       ]
+      },
+      {
+       "name": "Team B",
+       "values": [
+        2.2,
+        2.4,
+        2.5,
+        2.7,
+        2.8,
+        2.8,
+        3.0,
+        3.2
+       ]
+      },
+      {
+       "name": "Team C",
+       "values": [
+        0.3,
+        0.3,
+        0.4,
+        0.4,
+        0.4,
+        0.4,
+        0.4,
+        0.6
+       ]
+      },
+      {
+       "name": "Others",
+       "values": [
+        4.5,
+        4.7,
+        4.9,
+        5.1,
+        5.2,
+        5.4,
+        5.6,
+        5.8
+       ]
+      }
+     ]
+    },
+    "font_size": 5.5,
+    "x_labels": false,
+    "show_share": true,
+    "totals": true,
+    "min_label_h": 0.12,
+    "decimals": 1
+   }
+  },
+  {
+   "box": [
+    0.12,
+    0.3333333333333333,
+    0.28,
+    0.32
+   ],
+   "title": "Metric A YoY% — speed",
+   "title_style": "red",
+   "chart": {
+    "kind": "lines",
+    "data": {
+     "categories": [
+      "W1",
+      "W2",
+      "W3",
+      "W4",
+      "W5",
+      "W6",
+      "W7",
+      "W8"
+     ],
+     "series": [
+      {
+       "name": "Team A",
+       "values": [
+        177,
+        168,
+        158,
+        147,
+        138,
+        114,
+        112,
+        123
+       ]
+      },
+      {
+       "name": "Team B",
+       "values": [
+        142,
+        146,
+        144,
+        141,
+        135,
+        132,
+        129,
+        126
+       ]
+      },
+      {
+       "name": "Overall",
+       "values": [
+        162,
+        158,
+        153,
+        144,
+        138,
+        135,
+        130,
+        126
+       ]
+      },
+      {
+       "name": "Others",
+       "values": [
+        165,
+        162,
+        159,
+        150,
+        144,
+        141,
+        135,
+        130
+       ]
+      }
+     ]
+    },
+    "font_size": 5.5,
+    "x_labels": false,
+    "suffix": "%",
+    "decimals": 0,
+    "line_width": 1.2,
+    "annotations": [
+     {
+      "type": "circle",
+      "series": "Team A",
+      "points": [
+       5,
+       6
+      ],
+      "color": "red",
+      "w": 0.45,
+      "h": 0.28
+     },
+     {
+      "type": "note",
+      "series": "Team A",
+      "point": 6,
+      "text": "YoY soft vs Ratio R up",
+      "value": null,
+      "color": "red",
+      "dx": 0.05,
+      "dy": -0.35,
+      "size": 6
+     }
+    ]
+   }
+  },
+  {
+   "box": [
+    0.41,
+    0.3333333333333333,
+    0.28,
+    0.32
+   ],
+   "title": "",
+   "title_style": "plain",
+   "chart": {
+    "kind": "lines",
+    "data": {
+     "categories": [
+      "W1",
+      "W2",
+      "W3",
+      "W4",
+      "W5",
+      "W6",
+      "W7",
+      "W8"
+     ],
+     "series": [
+      {
+       "name": "Team A",
+       "values": [
+        184,
+        176,
+        165,
+        154,
+        146,
+        140,
+        135,
+        130
+       ]
+      },
+      {
+       "name": "Team B",
+       "values": [
+        150,
+        153,
+        152,
+        148,
+        142,
+        140,
+        136,
+        134
+       ]
+      },
+      {
+       "name": "Overall",
+       "values": [
+        170,
+        165,
+        160,
+        152,
+        146,
+        142,
+        138,
+        134
+       ]
+      },
+      {
+       "name": "Others",
+       "values": [
+        172,
+        170,
+        166,
+        158,
+        152,
+        148,
+        142,
+        138
+       ]
+      }
+     ]
+    },
+    "font_size": 5.5,
+    "x_labels": false,
+    "suffix": "%",
+    "decimals": 0,
+    "line_width": 1.2
+   }
+  },
+  {
+   "box": [
+    0.7,
+    0.3333333333333333,
+    0.28,
+    0.32
+   ],
+   "title": "",
+   "title_style": "plain",
+   "chart": {
+    "kind": "lines",
+    "data": {
+     "categories": [
+      "W1",
+      "W2",
+      "W3",
+      "W4",
+      "W5",
+      "W6",
+      "W7",
+      "W8"
+     ],
+     "series": [
+      {
+       "name": "Team A",
+       "values": [
+        165,
+        156,
+        146,
+        135,
+        126,
+        120,
+        116,
+        111
+       ]
+      },
+      {
+       "name": "Team B",
+       "values": [
+        130,
+        134,
+        132,
+        129,
+        123,
+        120,
+        117,
+        114
+       ]
+      },
+      {
+       "name": "Overall",
+       "values": [
+        150,
+        146,
+        141,
+        132,
+        126,
+        123,
+        118,
+        114
+       ]
+      },
+      {
+       "name": "Others",
+       "values": [
+        153,
+        150,
+        147,
+        138,
+        132,
+        129,
+        123,
+        118
+       ]
+      }
+     ]
+    },
+    "font_size": 5.5,
+    "x_labels": false,
+    "suffix": "%",
+    "decimals": 0,
+    "line_width": 1.2
+   }
+  },
+  {
+   "box": [
+    0.12,
+    0.6666666666666666,
+    0.28,
+    0.32
+   ],
+   "title": "Ratio R% — efficiency",
+   "title_style": "red",
+   "chart": {
+    "kind": "lines",
+    "data": {
+     "categories": [
+      "W1",
+      "W2",
+      "W3",
+      "W4",
+      "W5",
+      "W6",
+      "W7",
+      "W8"
+     ],
+     "series": [
+      {
+       "name": "Team A",
+       "values": [
+        21.1,
+        21.8,
+        22.2,
+        21.3,
+        20.9,
+        21.0,
+        21.9,
+        22.8
+       ]
+      },
+      {
+       "name": "Overall",
+       "values": [
+        18.0,
+        18.3,
+        18.6,
+        18.1,
+        17.7,
+        17.9,
+        18.5,
+        19.2
+       ]
+      },
+      {
+       "name": "Team B",
+       "values": [
+        14.7,
+        15.0,
+        15.1,
+        14.9,
+        14.5,
+        14.7,
+        15.3,
+        15.8
+       ]
+      },
+      {
+       "name": "Others",
+       "values": [
+        7.5,
+        7.6,
+        7.8,
+        7.9,
+        7.8,
+        8.1,
+        8.2,
+        8.4
+       ]
+      }
+     ]
+    },
+    "font_size": 5.5,
+    "x_labels": true,
+    "suffix": "%",
+    "decimals": 1,
+    "line_width": 1.2,
+    "annotations": [
+     {
+      "type": "circle",
+      "series": "Team A",
+      "points": [
+       6,
+       7
+      ],
+      "color": "green",
+      "w": 0.4,
+      "h": 0.25
+     }
+    ]
+   }
+  },
+  {
+   "box": [
+    0.41,
+    0.6666666666666666,
+    0.28,
+    0.32
+   ],
+   "title": "",
+   "title_style": "plain",
+   "chart": {
+    "kind": "lines",
+    "data": {
+     "categories": [
+      "W1",
+      "W2",
+      "W3",
+      "W4",
+      "W5",
+      "W6",
+      "W7",
+      "W8"
+     ],
+     "series": [
+      {
+       "name": "Team A",
+       "values": [
+        23.4,
+        24.0,
+        24.5,
+        23.5,
+        23.1,
+        23.2,
+        24.2,
+        25.0
+       ]
+      },
+      {
+       "name": "Overall",
+       "values": [
+        20.2,
+        20.5,
+        20.9,
+        20.4,
+        20.0,
+        20.1,
+        20.7,
+        21.5
+       ]
+      },
+      {
+       "name": "Team B",
+       "values": [
+        17.0,
+        17.2,
+        17.4,
+        17.1,
+        16.8,
+        17.0,
+        17.5,
+        18.0
+       ]
+      },
+      {
+       "name": "Others",
+       "values": [
+        9.8,
+        9.9,
+        10.1,
+        10.2,
+        10.1,
+        10.4,
+        10.5,
+        10.6
+       ]
+      }
+     ]
+    },
+    "font_size": 5.5,
+    "x_labels": true,
+    "suffix": "%",
+    "decimals": 1,
+    "line_width": 1.2
+   }
+  },
+  {
+   "box": [
+    0.7,
+    0.6666666666666666,
+    0.28,
+    0.32
+   ],
+   "title": "",
+   "title_style": "plain",
+   "chart": {
+    "kind": "lines",
+    "data": {
+     "categories": [
+      "W1",
+      "W2",
+      "W3",
+      "W4",
+      "W5",
+      "W6",
+      "W7",
+      "W8"
+     ],
+     "series": [
+      {
+       "name": "Team A",
+       "values": [
+        19.6,
+        20.2,
+        20.7,
+        19.8,
+        19.4,
+        19.5,
+        20.4,
+        21.3
+       ]
+      },
+      {
+       "name": "Overall",
+       "values": [
+        16.5,
+        16.8,
+        17.1,
+        16.6,
+        16.2,
+        16.4,
+        17.0,
+        17.7
+       ]
+      },
+      {
+       "name": "Team B",
+       "values": [
+        13.2,
+        13.5,
+        13.6,
+        13.4,
+        13.0,
+        13.2,
+        13.8,
+        14.2
+       ]
+      },
+      {
+       "name": "Others",
+       "values": [
+        6.0,
+        6.1,
+        6.3,
+        6.4,
+        6.3,
+        6.6,
+        6.8,
+        6.9
+       ]
+      }
+     ]
+    },
+    "font_size": 5.5,
+    "x_labels": true,
+    "suffix": "%",
+    "decimals": 1,
+    "line_width": 1.2
+   }
+  }
+ ],
+ "separators": [
+  {
+   "y": 0.5
+  },
+  {
+   "y": 0.999
+  },
+  {
+   "x": 0.608
+  },
+  {
+   "x": 1.042
+  }
+ ]
+}

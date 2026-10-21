@@ -1,0 +1,37 @@
+{
+  "id": "bar_stacked",
+  "type": "bar_stacked",
+  "title": "Online now exceeds in-store in every region",
+  "subtitle": "",
+  "unit": "$M",
+  "source": "Illustrative data",
+  "data": {
+    "categories": [
+      "North",
+      "South",
+      "East",
+      "West"
+    ],
+    "series": [
+      {
+        "name": "Online",
+        "values": [
+          58,
+          49,
+          55,
+          42
+        ]
+      },
+      {
+        "name": "In-store",
+        "values": [
+          42,
+          36,
+          40,
+          33
+        ]
+      }
+    ]
+  },
+  "footnote": "Figures rounded; illustrative example"
+}

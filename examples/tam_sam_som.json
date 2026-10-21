@@ -1,0 +1,31 @@
+{
+  "id": "tam_sam_som",
+  "type": "tam_sam_som",
+  "title": "A $1.2B obtainable market within a $40B TAM",
+  "subtitle": "",
+  "unit": "$B, 2026",
+  "source": "Illustrative data",
+  "data": {
+    "levels": [
+      {
+        "label": "TAM",
+        "value": 40,
+        "display": "$40B",
+        "desc": "Global B2B payments software"
+      },
+      {
+        "label": "SAM",
+        "value": 9,
+        "display": "$9B",
+        "desc": "Mid-market, Europe + NA"
+      },
+      {
+        "label": "SOM",
+        "value": 1.2,
+        "display": "$1.2B",
+        "desc": "5-year obtainable at 13% share"
+      }
+    ]
+  },
+  "footnote": "Figures rounded; illustrative example"
+}

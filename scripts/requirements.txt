@@ -1,0 +1,2 @@
+python-pptx>=1.0
+openpyxl>=3.1

@@ -1,0 +1,53 @@
+{
+  "id": "bubble",
+  "type": "bubble",
+  "title": "Business segment: large and profitable",
+  "subtitle": "",
+  "unit": "Years between purchases vs margin %",
+  "source": "Illustrative data",
+  "data": {
+    "points": [
+      {
+        "x": 2,
+        "y": 12,
+        "size": 25,
+        "label": "Business"
+      },
+      {
+        "x": 4,
+        "y": 5,
+        "size": 8,
+        "label": "Budget"
+      },
+      {
+        "x": 1,
+        "y": 18,
+        "size": 5,
+        "label": "Power users"
+      },
+      {
+        "x": 5,
+        "y": 9,
+        "size": 15,
+        "label": "Mid-range"
+      },
+      {
+        "x": 3,
+        "y": 15,
+        "size": 3,
+        "label": "Early adopters"
+      }
+    ],
+    "x_title": "Purchase frequency (years)",
+    "y_title": "Margin (%)"
+  },
+  "callouts": [
+    {
+      "text": "Largest profit pool",
+      "anchor": "Business",
+      "dx": 1.8,
+      "dy": 1.0
+    }
+  ],
+  "footnote": "Figures rounded; illustrative example"
+}

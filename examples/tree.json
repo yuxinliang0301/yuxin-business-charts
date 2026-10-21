@@ -1,0 +1,58 @@
+{
+  "id": "tree",
+  "type": "tree",
+  "title": "ROCE driver tree: asset turnover is the gap",
+  "subtitle": "",
+  "unit": "FY2025",
+  "source": "Illustrative data",
+  "data": {
+    "root": {
+      "label": "ROCE",
+      "value": "14%",
+      "children": [
+        {
+          "label": "EBIT margin",
+          "value": "9%",
+          "op": "×",
+          "children": [
+            {
+              "label": "Gross margin",
+              "value": "38%"
+            },
+            {
+              "label": "Opex ratio",
+              "value": "29%",
+              "op": "−"
+            }
+          ]
+        },
+        {
+          "label": "Asset turnover",
+          "value": "1.6x",
+          "op": "",
+          "highlight": true,
+          "children": [
+            {
+              "label": "Revenue",
+              "value": "$125M"
+            },
+            {
+              "label": "Capital employed",
+              "value": "$78M",
+              "op": "÷"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "callouts": [
+    {
+      "text": "Peers at 2.1x",
+      "anchor": "Asset turnover",
+      "dx": 0.3,
+      "dy": 1.1
+    }
+  ],
+  "footnote": "Figures rounded; illustrative example"
+}

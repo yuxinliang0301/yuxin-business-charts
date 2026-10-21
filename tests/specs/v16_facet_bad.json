@@ -1,0 +1,1 @@
+{"type":"facet","title":"x","source":"s","rows":[{"label":"r","chart":{"kind":"bars_pair","rule":{"threshold":"65%"}}}],"cols":["A","B"],"cells":[[{"value":1,"compare":2}]]}

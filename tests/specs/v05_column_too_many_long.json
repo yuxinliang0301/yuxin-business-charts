@@ -1,0 +1,46 @@
+{
+ "type": "column",
+ "title": "Sales by product",
+ "source": "ERP",
+ "data": {
+  "categories": [
+   "Product line number 1",
+   "Product line number 2",
+   "Product line number 3",
+   "Product line number 4",
+   "Product line number 5",
+   "Product line number 6",
+   "Product line number 7",
+   "Product line number 8",
+   "Product line number 9",
+   "Product line number 10",
+   "Product line number 11",
+   "Product line number 12",
+   "Product line number 13",
+   "Product line number 14",
+   "Product line number 15"
+  ],
+  "series": [
+   {
+    "name": "Sales",
+    "values": [
+     10,
+     20,
+     30,
+     40,
+     50,
+     60,
+     70,
+     80,
+     90,
+     100,
+     110,
+     120,
+     130,
+     140,
+     150
+    ]
+   }
+  ]
+ }
+}

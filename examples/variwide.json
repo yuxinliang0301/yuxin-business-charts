@@ -1,0 +1,45 @@
+{
+  "id": "variwide",
+  "type": "variwide",
+  "title": "Large segments have the lowest margins",
+  "subtitle": "",
+  "unit": "Margin %; width = revenue $M",
+  "source": "Illustrative data",
+  "data": {
+    "categories": [
+      "Retail",
+      "Wholesale",
+      "Online",
+      "B2B",
+      "Export"
+    ],
+    "widths": [
+      40,
+      25,
+      15,
+      12,
+      8
+    ],
+    "values": [
+      8,
+      11,
+      18,
+      22,
+      15
+    ],
+    "suffix": "%",
+    "highlight": [
+      "Online",
+      "B2B"
+    ]
+  },
+  "callouts": [
+    {
+      "text": "B2B: small but most profitable",
+      "anchor": "22%",
+      "dx": -2.8,
+      "dy": -0.2
+    }
+  ],
+  "footnote": "Figures rounded; illustrative example"
+}
